@@ -13,14 +13,15 @@ function Login() {
 
         try {
             const res = await axios.post("http://localhost:8000/", {
-                email,
-                password
+                // email,
+                // password
+                
             });
 
             if (res.data === "exist") {
                 // Check if the provided credentials match the admin credentials
-                if (email === "abc@gmail.com" && password === "hello123") {
-                    navigate("/signup");
+                if (email === "admin@gmail.com" && password === "hello123") {
+                    navigate("/admindash");
                 } else {
                     alert("Invalid credentials. Only admin can access the signup page.");
                 }

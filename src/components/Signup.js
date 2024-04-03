@@ -10,6 +10,8 @@ function Login() {
     const [name, setName]=useState('')
     const [email,setEmail]=useState('')
     const [types,setTypes]=useState('')
+    const [contact,setContact]=useState('')
+    const [role,setRole]=useState('')
     //const [password,setPassword]=useState('')
 
     async function submit(e){
@@ -18,13 +20,13 @@ function Login() {
         try{
 
             await axios.post("http://localhost:8000/signup",{
-                name,email,types, password: DEFAULT_PASSWORD
+                name,email,types, password: DEFAULT_PASSWORD, contact, role
             })
             .then(res=>{
-                if(res.data=="exist"){
+                if(res.data==="exist"){
                     alert("User already exists")
                 }
-                else if(res.data=="notexist"){
+                else if(res.data==="notexist"){
                     alert("User created")
                     history("/",{state:{id:email}})
                 }
@@ -78,6 +80,26 @@ function Login() {
                         onChange={(e) => setTypes(e.target.value)}
                         placeholder="Type"
                       
+                    />
+                </div>
+                <div className="form-group">
+                    <label>Phone: </label>
+                    <input
+                        type="contact"
+                        value={contact}
+                        onChange={(e) => setContact(e.target.value)}
+                        placeholder="Contact"
+                       
+                    />
+                </div>
+                <div className="form-group">
+                    <label>Roles: </label>
+                    <input
+                        type="role"
+                        value={role}
+                        onChange={(e) => setRole(e.target.value)}
+                        placeholder="Role"
+                       
                     />
                 </div>
                 <button type="submit">Submit</button>

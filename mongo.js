@@ -15,6 +15,14 @@ const newSchema=new mongoose.Schema({
     types:{
         type:String,
         required: true
+    },
+    contact:{
+        type:Number,
+        required: true
+    },
+    role:{
+        type:String,
+        required: true
     }
 })
 
