@@ -7,25 +7,23 @@ function Login() {
     const navigate = useNavigate();
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
-
+    
     async function submit(e) {
         e.preventDefault();
 
         try {
             const res = await axios.post("http://localhost:8000/", {
-                // email,
-                // password
-                
+                email,
+                password
             });
 
-            if (res.data === "exist") {
-                // Check if the provided credentials match the admin credentials
-                if (email === "admin@gmail.com" && password === "hello123") {
+            if (res.data.exist) {
+                if (res.data.role === "admin") {
                     navigate("/admindash");
                 } else {
-                    alert("Invalid credentials. Only admin can access the signup page.");
+                    navigate("/userdash");
                 }
-            } else if (res.data === "notexist") {
+            } else {
                 alert("User has not signed up");
             }
         } catch (error) {

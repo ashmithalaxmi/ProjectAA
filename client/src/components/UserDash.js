@@ -11,7 +11,10 @@ function UserDash (){
                 <button><Link to='/signup'>User Profile</Link></button>
                 <br></br>
                 <br></br>
-                <button><Link to='/skills'>Add Skills</Link></button>
+                <button><Link to='/skills'>Skills</Link></button>
+                <br></br>
+                <br></br>
+                <button><Link to='/project'>Project</Link></button>
             </center>
         </div>
     )

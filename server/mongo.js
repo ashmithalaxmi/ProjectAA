@@ -26,6 +26,8 @@ const newSchema=new mongoose.Schema({
     }
 })
 
+
+
 const collection = mongoose.model("matrix_proj",newSchema)
 
 module.exports=collection

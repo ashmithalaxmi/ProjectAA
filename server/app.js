@@ -1,5 +1,7 @@
 const express = require("express")
 const collection = require("./mongo")
+const skilluser = require("./skills")
+const projectuser = require("./project")
 const cors = require("cors")
 const nodemailer = require('nodemailer');
 const app = express()
@@ -43,25 +45,59 @@ app.get('/update',async (req,res)=>{
     return res.status(200).send('Sent Mail');
   })
 
-app.post("/",async(req,res)=>{
-    const{email,password}=req.body
-
-    try{
-        const check=await collection.findOne({email:email})
-
-        if(check){
-            res.json("exist")
+// Assume you have a function to retrieve the user's role from MongoDB
+const getUserRoleByEmail = async (email) => {
+    try {
+        // Query MongoDB to get the user's role based on the provided email
+        const user = await collection.findOne({ email });
+        if (user) {
+            return user.types; // Return the user's role (e.g., 'admin' or 'user')
+        } else {
+            return null; // User not found
         }
-        else{
-            res.json("notexist")
+    } catch (error) {
+        console.error("Error fetching user role:", error);
+        throw error;
+    }
+};
+
+// In your login route handler
+app.post("/", async (req, res) => {
+    const { email, password } = req.body;
+
+    try {
+        const check = await collection.findOne({ email, password });
+        if (check) {
+            // Get the user's role
+            const role = await getUserRoleByEmail(email);
+            res.json({ exist: true, role }); // Include the user's role in the response
+        } else {
+            res.json({ exist: false });
         }
-
+    } catch (e) {
+        res.json({ error: e.message });
     }
-    catch(e){
-        res.json("fail")
-    }
+});
 
-})
+// app.post("/",async(req,res)=>{
+//     const{email,password}=req.body
+
+//     try{
+//         const check=await collection.findOne({email:email})
+
+//         if(check){
+//             res.json("exist")
+//         }
+//         else{
+//             res.json("notexist")
+//         }
+
+//     }
+//     catch(e){
+//         res.json("fail")
+//     }
+
+// })
 
 
 
