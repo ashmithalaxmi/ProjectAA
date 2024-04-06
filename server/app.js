@@ -4,6 +4,8 @@ const nodemailer = require('nodemailer');
 const cors = require("cors");
 const app = express();
 const collection = require("./models/mongo"); // Assuming your Mongoose model is exported as 'collection'
+const skilluser = require("./models/skills")
+//const projectuser = require("./models/project")
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
@@ -142,31 +144,53 @@ app.post("/signup", async (req, res) => {
     }
 });
 
-app.post("/skills", async (req, res) => {
-    const { userID, tech, proficiency, certification, status } = req.body;
-
+app.post('/addskill', async (req, res) => {
     try {
-        const check = await collection.findOne({ userID: userID });
-        console.log(check);
-
-        if (check) {
-            return res.send("exist");
-        } else {
-            const data = new collection({
-                userID: userID,
-                tech: tech,
-                proficiency: proficiency,
-                certification: certification,
-                status: status
-            });
-            await data.save();
-            return res.send("notexist");
-        }
-
-    } catch (e) {
-        return res.send("fail");
+      // Fetch userID from User collection based on email
+      const { email } = req.body;
+      const user = await collection.findOne({ email });
+  
+      if (!user) {
+        return res.status(404).json({ message: 'User not found' });
+      }
+  
+      // Create a new skillUser instance based on the data sent from the frontend
+      const newSkillUser = new skilluser({
+        userID: user._id,
+        tech: req.body.tech,
+        proficiency: req.body.proficiency,
+        certification: req.body.certification,
+        status: req.body.status
+      });
+  
+      // Save the new skillUser to the database
+      await newSkillUser.save();
+  
+      // Respond with a success message
+      res.status(200).json({ message: 'Skill added successfully' });
+    } catch (error) {
+      // If an error occurs, respond with an error status and message
+      console.error('Error adding skill:', error);
+      res.status(500).json({ message: 'Internal server error' });
     }
-});
+  });
+
+// app.post('/addskill', async (req, res) => {
+//     try {
+//       // Create a new skill instance based on the data sent from the frontend
+//       const newSkill = new skilluser(req.body);
+  
+//       // Save the new skill to the database
+//       await newSkill.save();
+  
+//       // Respond with a success message
+//       res.status(200).json({ message: 'Skill added successfully' });
+//     } catch (error) {
+//       // If an error occurs, respond with an error status and message
+//       console.error('Error adding skill:', error);
+//       res.status(500).json({ message: 'Internal server error' });
+//     }
+//   });
 
 app.get('/getUserID', async (req, res) => {
     try {
@@ -176,7 +200,7 @@ app.get('/getUserID', async (req, res) => {
       // Fetch user details based on email
       const user = await User.findOne({ email });
   
-      if (!user) {
+      if (!user) { 
         return res.status(404).json({ message: 'User not found' });
       }
   

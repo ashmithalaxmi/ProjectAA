@@ -1,58 +1,58 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import axios from 'axios';
 
 function UserDashboard() {
   const [skillsData, setSkillsData] = useState([]);
   const [showModal, setShowModal] = useState(false);
   const [newSkill, setNewSkill] = useState({
-    skill: '',
-    level: '',
+    tech: '',
+    proficiency: '',
     certificateLink: '',
     // projectExperience: '',
     status: 'Pending' // Set default status to 'Pending'
   });
 
-  // useEffect(() => {
-  //   // Fetch userID (ObjectID) from backend
-  //   const fetchUserID = async () => {
-  //     try {
-  //       const response = await axios.get('http://localhost:8000/getUserID');
-  //       console.log(response.data);
-  //       return response.data.userID;
-  //     } catch (error) {
-  //       console.error('Error fetching userID:', error);
-  //     }
-  //   };
-
-  //   fetchUserID()
-  //     .then(userID => {
-  //       // Set userID in newSkill state
-  //       setNewSkill(prevState => ({
-  //         ...prevState,
-  //         userID
-  //       }));
-  //     });
-  // }, []);
-
   // Function to handle adding a new skill
   const addSkill = async () => {
     try {
-      // Send skill data along with userID to backend
-      const response = await axios.post('http://localhost:8000/addSkill', newSkill);
-      console.log('Skill added successfully:', response.data);
-      setSkillsData([...skillsData, newSkill]);
-      setShowModal(false);
+      // Retrieve user's email from local storage
+      const userEmail = localStorage.getItem("email");
+  
+      // Check if user email exists
+      if (!userEmail) {
+        console.error('User email not found');
+        return;
+      }
+  
+      // Add email field to newSkill object
+    const newSkillWithUserEmail = { ...newSkill, email: userEmail };
+      // Send the new skill data to the backend
+      const response = await axios.post('http://localhost:8000/addskill', newSkillWithUserEmail);
+      console.log(response.data)
+      // If the skill is successfully added on the backend, update the frontend state
+      if (response.status === 200) {
+        setSkillsData([...skillsData, newSkill]);
+        setShowModal(false);
+        // Reset newSkill state for next entry
+        setNewSkill({
+          tech: '',
+          proficiency: '',
+          certificateLink: '',
+          status: 'Pending' // Reset status to 'Pending' for next entry
+        });
+      }
     } catch (error) {
       console.error('Error adding skill:', error);
     }
   };
 
+
   // Function to handle approving a certificate
-  // const approveCertificate = (index) => {
-  //   const updatedSkills = [...skillsData];
-  //   updatedSkills[index].status = 'Approved'; // Change status to 'Approved'
-  //   setSkillsData(updatedSkills);
-  // };
+  const approveCertificate = (index) => {
+    const updatedSkills = [...skillsData];
+    updatedSkills[index].status = 'Approved'; // Change status to 'Approved'
+    setSkillsData(updatedSkills);
+  };
   
 
   return (
@@ -73,9 +73,9 @@ function UserDashboard() {
             />
             <input
               type="text"
-              placeholder="Level"
-              value={newSkill.level}
-              onChange={(e) => setNewSkill({ ...newSkill, level: e.target.value })}
+              placeholder="proficiency"
+              value={newSkill.proficiency}
+              onChange={(e) => setNewSkill({ ...newSkill, proficiency: e.target.value })}
             />
             <input
               type="text"
@@ -83,12 +83,6 @@ function UserDashboard() {
               value={newSkill.certificateLink}
               onChange={(e) => setNewSkill({ ...newSkill, certificateLink: e.target.value })}
             />
-            {/* <input
-              type="text"
-              placeholder="Project Experience"
-              value={newSkill.projectExperience}
-              onChange={(e) => setNewSkill({ ...newSkill, projectExperience: e.target.value })}
-            /> */}
             <input
               type="text"
               placeholder="Status"
@@ -105,7 +99,7 @@ function UserDashboard() {
           <tr>
             <th>S.no</th>
             <th>Skill</th>
-            <th>Level</th>
+            <th>proficiency</th>
             <th>Certificate Link</th>
             <th>Status</th>
           </tr>
@@ -115,7 +109,7 @@ function UserDashboard() {
             <tr key={index}>
               <td>{index + 1}</td>
               <td>{skill.skill}</td>
-              <td>{skill.level}</td>
+              <td>{skill.proficiency}</td>
               <td><a href={skill.certificateLink} target="_blank" rel="noopener noreferrer">Certificate</a></td>
               <td>{skill.status}</td>
             </tr>
