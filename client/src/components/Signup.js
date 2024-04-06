@@ -102,14 +102,9 @@ function Login() {
                        
                     />
                 </div>
+                <br></br>
                 <button type="submit">Submit</button>
             </form>
-            <br />
-            <p>Already have an account?</p>
-            <br />
-
-            <Link to="/">Login Page</Link>
-
         </div>
         </div>
     )

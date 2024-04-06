@@ -20,10 +20,6 @@ const skillSchema=new mongoose.Schema({
     status:{
         type:Number,
         required: true
-    },
-    action:{
-        type:String,
-        required: true
     }
 })
 

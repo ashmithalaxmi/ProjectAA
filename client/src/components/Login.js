@@ -19,8 +19,12 @@ function Login() {
 
             if (res.data.exist) {
                 if (res.data.role === "admin") {
+                    localStorage.setItem("email", email);
+                    localStorage.setItem("role", "admin");
                     navigate("/admindash");
                 } else {
+                    localStorage.setItem("email", email);
+                    localStorage.setItem("role", "user");
                     navigate("/userdash");
                 }
             } else {
@@ -66,11 +70,9 @@ function Login() {
                             placeholder="Password"
                         />
                     </div>
+                    <br></br>
                     <button type="submit">Submit</button>
-                    <br />
-                    <p>Don't have an account?</p>
-                    <Link to="/signup">Signup Page</Link>
-                    <br />
+                   <br />
                     <br/>
                     <button type="submit" onClick={()=>{onChangeClicked();}}>
                        Change password
