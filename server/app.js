@@ -4,7 +4,8 @@ const nodemailer = require('nodemailer');
 const cors = require("cors");
 const app = express();
 const collection = require("./models/mongo"); // Assuming your Mongoose model is exported as 'collection'
-const skilluser = require("./models/skills")
+const SkillUser = require("./models/skills");
+const Project = require("./models/project")
 //const projectuser = require("./models/project")
 
 app.use(express.json());
@@ -148,15 +149,15 @@ app.post('/addskill', async (req, res) => {
     try {
       // Fetch userID from User collection based on email
       const { email } = req.body;
-      const user = await collection.findOne({ email });
-  
+      const user = await collection.findOne({ email }); // Assuming you have 'collection' defined somewhere
+      console.log(user)
       if (!user) {
         return res.status(404).json({ message: 'User not found' });
       }
   
       // Create a new skillUser instance based on the data sent from the frontend
-      const newSkillUser = new skilluser({
-        userID: user._id,
+      const newSkillUser = new SkillUser({
+        userId: user._id,
         tech: req.body.tech,
         proficiency: req.body.proficiency,
         certification: req.body.certification,
@@ -175,22 +176,127 @@ app.post('/addskill', async (req, res) => {
     }
   });
 
-// app.post('/addskill', async (req, res) => {
-//     try {
-//       // Create a new skill instance based on the data sent from the frontend
-//       const newSkill = new skilluser(req.body);
+app.get('/getskills', async (req, res) => {
+    try {
+        // Retrieve all skills from the Skill collection
+        const skills = await SkillUser.find();
+        
+        // Check if any skills were found
+        if (!skills) {
+            return res.status(404).json({ message: 'No skills found' });
+        }
+
+        // If skills are found, send them as a response
+        res.status(200).json(skills);
+    } catch (error) {
+        // If an error occurs, respond with an error status and message
+        console.error('Error fetching skills:', error);
+        res.status(500).json({ message: 'Internal server error' });
+    }
+});
+
+// Assuming you're using Express.js
+app.patch('/approveCertificate/:id', async (req, res) => {
+    try {
+      const { id } = req.params;
   
-//       // Save the new skill to the database
-//       await newSkill.save();
+      // Find the skillUser instance in the database based on the provided ID
+      const skillUser = await SkillUser.findById(id);
   
-//       // Respond with a success message
-//       res.status(200).json({ message: 'Skill added successfully' });
-//     } catch (error) {
-//       // If an error occurs, respond with an error status and message
-//       console.error('Error adding skill:', error);
-//       res.status(500).json({ message: 'Internal server error' });
-//     }
-//   });
+      if (!skillUser) {
+        return res.status(404).json({ message: 'Skill not found' });
+      }
+  
+      // Update the status to 'Approved'
+      skillUser.status = 'Approved';
+      
+      // Save the updated skillUser to the database
+      await skillUser.save();
+  
+      // Respond with a success message
+      res.status(200).json({ message: 'Certificate approved successfully' });
+    } catch (error) {
+      // If an error occurs, respond with an error status and message
+      console.error('Error approving certificate:', error);
+      res.status(500).json({ message: 'Internal server error' });
+    }
+  });
+  
+  app.post('/addproject', async (req, res) => {
+    try {
+      // Fetch userID from User collection based on email
+      const { email } = req.body;
+      const user = await collection.findOne({ email }); // Assuming you have 'collection' defined somewhere
+  
+      if (!user) {
+        return res.status(404).json({ message: 'User not found' });
+      }
+  
+      // Create a new project instance based on the data sent from the frontend
+      const newProject = new Project({
+        userId: user._id,
+        projname: req.body.projname,
+        tech: req.body.tech,
+        description: req.body.description,
+        status: req.body.status
+      });
+  
+      // Save the new project to the database
+      await newProject.save();
+  
+      // Respond with a success message
+      res.status(200).json({ message: 'Project added successfully' });
+    } catch (error) {
+      // If an error occurs, respond with an error status and message
+      console.error('Error adding project:', error);
+      res.status(500).json({ message: 'Internal server error' });
+    }
+  });
+
+  app.get('/getproject', async (req, res) => {
+    try {
+        // Retrieve all skills from the Skill collection
+        const proj = await Project.find();
+        
+        // Check if any skills were found
+        if (!proj) {
+            return res.status(404).json({ message: 'No project found' });
+        }
+
+        // If skills are found, send them as a response
+        res.status(200).json(proj);
+    } catch (error) {
+        // If an error occurs, respond with an error status and message
+        console.error('Error fetching project:', error);
+        res.status(500).json({ message: 'Internal server error' });
+    }
+});
+
+app.patch('/approveProject/:id', async (req, res) => {
+    try {
+      const { id } = req.params;
+  
+      // Find the skillUser instance in the database based on the provided ID
+      const project = await Project.findById(id);
+  
+      if (!project) {
+        return res.status(404).json({ message: 'Project not found' });
+      }
+  
+      // Update the status to 'Approved'
+      project.status = 'Approved';
+      
+      // Save the updated skillUser to the database
+      await project.save();
+  
+      // Respond with a success message
+      res.status(200).json({ message: 'Project approved successfully' });
+    } catch (error) {
+      // If an error occurs, respond with an error status and message
+      console.error('Error approving project:', error);
+      res.status(500).json({ message: 'Internal server error' });
+    }
+  });
 
 app.get('/getUserID', async (req, res) => {
     try {

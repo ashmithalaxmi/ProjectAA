@@ -5,7 +5,7 @@ const projectSchema=new mongoose.Schema({
         ref: 'collection',
         required: true
       },
-    projName:{
+    projname:{
         type:String,
         required:true
     },
@@ -18,10 +18,6 @@ const projectSchema=new mongoose.Schema({
         required: true
     },
     status:{
-        type:Number,
-        required: true
-    },
-    action:{
         type:String,
         required: true
     }

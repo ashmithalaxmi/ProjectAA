@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
 function UserDashboard() {
@@ -7,12 +7,60 @@ function UserDashboard() {
   const [newSkill, setNewSkill] = useState({
     tech: '',
     proficiency: '',
-    certificateLink: '',
-    // projectExperience: '',
+    certification: '',
     status: 'Pending' // Set default status to 'Pending'
   });
 
+  const fetchSkills = async () => {
+    try {
+      const response = await axios.get('http://localhost:8000/getskills');
+      setSkillsData(response.data);
+    } catch (error) {
+      console.error('Error fetching Skills:', error);
+    }
+  };
+
+  // Fetch projects when component mounts
+  useEffect(() => {
+    fetchSkills();
+  }, []);
+
   // Function to handle adding a new skill
+  // const addSkill = async () => {
+  //   try {
+  //     // Retrieve user's email from local storage
+  //     const userEmail = localStorage.getItem("email");
+  
+  //     // Check if user email exists
+  //     if (!userEmail) {
+  //       console.error('User email not found');
+  //       return;
+  //     }
+
+  //     // Add email field to newSkill object
+  //     const newSkillWithUserEmail = { ...newSkill, email: userEmail };
+
+  //     // Send the new skill data to the backend
+  //     const response = await axios.post('http://localhost:8000/addskill', newSkillWithUserEmail);
+
+  //     // If the skill is successfully added on the backend, update the frontend state
+  //     if (response.status === 200) {
+  //       // Update state with the new skill data returned from the backend
+  //       setSkillsData([...skillsData, response.data]); // Assuming response.data contains the newly added skill
+  //       setShowModal(false);
+  //       // Reset newSkill state for next entry
+  //       setNewSkill({
+  //         tech: '',
+  //         proficiency: '',
+  //         certification: '',
+  //         status: 'Pending' // Reset status to 'Pending' for next entry
+  //       });
+  //     }
+  //   } catch (error) {
+  //     console.error('Error adding skill:', error);
+  //   }
+  // };
+
   const addSkill = async () => {
     try {
       // Retrieve user's email from local storage
@@ -25,19 +73,22 @@ function UserDashboard() {
       }
   
       // Add email field to newSkill object
-    const newSkillWithUserEmail = { ...newSkill, email: userEmail };
+      const newSkillWithUserEmail = { ...newSkill, email: userEmail };
+  
       // Send the new skill data to the backend
       const response = await axios.post('http://localhost:8000/addskill', newSkillWithUserEmail);
-      console.log(response.data)
+  
       // If the skill is successfully added on the backend, update the frontend state
       if (response.status === 200) {
-        setSkillsData([...skillsData, newSkill]);
+        // Fetch updated skills after adding a new skill
+        await fetchSkills();
+        
         setShowModal(false);
         // Reset newSkill state for next entry
         setNewSkill({
           tech: '',
           proficiency: '',
-          certificateLink: '',
+          certification: '',
           status: 'Pending' // Reset status to 'Pending' for next entry
         });
       }
@@ -46,43 +97,34 @@ function UserDashboard() {
     }
   };
 
-
-  // Function to handle approving a certificate
-  const approveCertificate = (index) => {
-    const updatedSkills = [...skillsData];
-    updatedSkills[index].status = 'Approved'; // Change status to 'Approved'
-    setSkillsData(updatedSkills);
-  };
-  
-
   return (
     <div>
       <h1>Dashboard</h1>
       <button onClick={() => setShowModal(true)}>Add Skill</button>
       {showModal && (
         // Modal for adding a new skill
-        // Implementation of modal content
         <div className="modal">
           <div className="modal-content">
-            <span className="close" onClick={() => setShowModal(false)}>&times;close </span>
+            <span className="close" onClick={() => setShowModal(false)}>&times; Close</span>
             <input
               type="text"
-              placeholder="Skill"
-              value={newSkill.skill}
-              onChange={(e) => setNewSkill({ ...newSkill, skill: e.target.value })}
+              placeholder="Tech"
+              value={newSkill.tech}
+              onChange={(e) => setNewSkill({ ...newSkill, tech: e.target.value })}
             />
             <input
               type="text"
-              placeholder="proficiency"
+              placeholder="Proficiency"
               value={newSkill.proficiency}
               onChange={(e) => setNewSkill({ ...newSkill, proficiency: e.target.value })}
             />
             <input
               type="text"
               placeholder="Certificate Link"
-              value={newSkill.certificateLink}
-              onChange={(e) => setNewSkill({ ...newSkill, certificateLink: e.target.value })}
+              value={newSkill.certification}
+              onChange={(e) => setNewSkill({ ...newSkill, certification: e.target.value })}
             />
+            {/* Status is disabled as it's set automatically */}
             <input
               type="text"
               placeholder="Status"
@@ -98,8 +140,8 @@ function UserDashboard() {
         <thead>
           <tr>
             <th>S.no</th>
-            <th>Skill</th>
-            <th>proficiency</th>
+            <th>Tech</th>
+            <th>Proficiency</th>
             <th>Certificate Link</th>
             <th>Status</th>
           </tr>
@@ -108,9 +150,9 @@ function UserDashboard() {
           {skillsData.map((skill, index) => (
             <tr key={index}>
               <td>{index + 1}</td>
-              <td>{skill.skill}</td>
+              <td>{skill.tech}</td>
               <td>{skill.proficiency}</td>
-              <td><a href={skill.certificateLink} target="_blank" rel="noopener noreferrer">Certificate</a></td>
+              <td><a href={skill.certification} target="_blank" rel="noopener noreferrer">Certificate</a></td>
               <td>{skill.status}</td>
             </tr>
           ))}

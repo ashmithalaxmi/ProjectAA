@@ -8,6 +8,7 @@ import UserDash from './components/UserDash'
 import AdminDashboard from './components/DashAdmin'
 import UserDashboard from './components/DashUser'
 import UserProject from './components/ProjUser'
+import AdminProject from './components/ProjAdmin'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 // import { useState } from 'react';
 
@@ -25,6 +26,7 @@ function App() {
           <Route path="/approve" element={<AdminDashboard />} />
           <Route path="/skills" element={<UserDashboard />} />
           <Route path="/project" element={<UserProject />} />
+          <Route path="/projectapprove" element={<AdminProject />} />
         </Routes>
       </Router>
     </div>

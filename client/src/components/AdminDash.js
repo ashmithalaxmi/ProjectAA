@@ -11,7 +11,10 @@ function AdminDash (){
                 <button><Link to='/signup'>Create User</Link></button>
                 <br></br>
                 <br></br>
-                <button><Link to='/approve'>Approver Desk</Link></button>
+                <button><Link to='/approve'>Skill Approver Desk</Link></button>
+                <br></br>
+                <br></br>
+                <button><Link to='/projectapprove'>Project Approver Desk</Link></button>
             </center>
         </div>
     )
