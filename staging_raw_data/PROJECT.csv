@@ -1,0 +1,501 @@
+_id,id,userID,projname,tech,description,staus
+6617d22496fb1df60617aeef,6617c305fc13ae2ab5ab89f5,198,Timesheet,Springboot,nunc rhoncus dui vel sem sed sagittis nam congue risus semper porta volutpat,Approved
+6617d22496fb1df60617aef0,6617c305fc13ae2ab5ab89f6,53,Skill Matrix,Node,cubilia curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit amet,Approved
+6617d22496fb1df60617aef1,6617c305fc13ae2ab5ab89f7,243,Hostel Management,Springboot,id pretium iaculis diam erat fermentum justo nec condimentum neque,Pending
+6617d22496fb1df60617aef2,6617c305fc13ae2ab5ab89f8,43,Revenue Prediction,Angular,in porttitor pede justo eu massa donec dapibus duis at velit eu est congue,Approved
+6617d22496fb1df60617aef3,6617c305fc13ae2ab5ab89f9,314,Library Management,Node,,Approved
+6617d22496fb1df60617aef4,6617c305fc13ae2ab5ab89fa,128,Sales Activity,Java,,Approved
+6617d22496fb1df60617aef5,6617c305fc13ae2ab5ab89fb,94,Employee Training,DBT,,Approved
+6617d22496fb1df60617aef6,6617c305fc13ae2ab5ab89fc,50,Sales Forecasting,Python,rhoncus aliquam lacus morbi quis tortor id nulla ultrices aliquet maecenas leo odio condimentum,Approved
+6617d22496fb1df60617aef7,6617c305fc13ae2ab5ab89fd,92,Revenue Prediction,SQL,massa volutpat convallis morbi odio odio elementum eu interdum eu tincidunt in,Approved
+6617d22496fb1df60617aef8,6617c305fc13ae2ab5ab89fe,211,Revenue Prediction,Springboot,lacinia aenean sit amet justo morbi ut odio cras mi pede,Approved
+6617d22496fb1df60617aef9,6617c305fc13ae2ab5ab89ff,93,Student Management,Bootstrap,,Pending
+6617d22496fb1df60617aefa,6617c305fc13ae2ab5ab8a00,60,Hostel Management,Machine Learning,consequat ut nulla sed accumsan felis ut at dolor quis odio consequat varius,Approved
+6617d22496fb1df60617aefb,6617c305fc13ae2ab5ab8a01,295,Timesheet,PowerBi,sapien cursus vestibulum proin eu mi nulla ac enim in tempor,Pending
+6617d22596fb1df60617aefc,6617c305fc13ae2ab5ab8a02,157,Sales Activity,Deep Learning,,Pending
+6617d22596fb1df60617aefd,6617c305fc13ae2ab5ab8a03,79,Sales Forecasting,SQL,praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget,Approved
+6617d22596fb1df60617aefe,6617c305fc13ae2ab5ab8a04,250,Skill Matrix,Deep Learning,suscipit ligula in lacus curabitur at ipsum ac tellus semper interdum,Approved
+6617d22596fb1df60617aeff,6617c305fc13ae2ab5ab8a05,408,Hostel Management,React,ligula pellentesque ultrices phasellus id sapien in sapien iaculis congue vivamus metus arcu,Pending
+6617d22596fb1df60617af00,6617c305fc13ae2ab5ab8a06,219,Revenue Prediction,Deep Learning,fusce lacus purus aliquet at feugiat non pretium quis lectus,Approved
+6617d22596fb1df60617af01,6617c305fc13ae2ab5ab8a07,205,Employee Learning,Node,nisl venenatis lacinia aenean sit amet justo morbi ut odio cras mi pede malesuada in,Pending
+6617d22596fb1df60617af02,6617c305fc13ae2ab5ab8a08,403,Skill Matrix,Machine Learning,sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia,Approved
+6617d22596fb1df60617af03,6617c305fc13ae2ab5ab8a09,53,Sales Forecasting,SQL,semper interdum mauris ullamcorper purus sit amet nulla quisque arcu libero rutrum ac lobortis,Approved
+6617d22596fb1df60617af04,6617c305fc13ae2ab5ab8a0a,196,BAU Activity,DBT,,Approved
+6617d22596fb1df60617af05,6617c305fc13ae2ab5ab8a0b,297,Hostel Management,Springboot,,Approved
+6617d22596fb1df60617af06,6617c305fc13ae2ab5ab8a0c,96,Sales Forecasting,Node,primis in faucibus orci luctus et ultrices posuere cubilia curae mauris,Approved
+6617d22596fb1df60617af07,6617c305fc13ae2ab5ab8a0d,307,Employee Training,DBT,et tempus semper est quam pharetra magna ac consequat metus sapien,Approved
+6617d22596fb1df60617af08,6617c305fc13ae2ab5ab8a0e,240,Employee Training,SQL,turpis elementum ligula vehicula consequat morbi a ipsum integer a nibh in quis,Approved
+6617d22596fb1df60617af09,6617c305fc13ae2ab5ab8a0f,145,Employee Training,Angular,sed tristique in tempus sit amet sem fusce consequat nulla nisl nunc nisl duis bibendum,Pending
+6617d22596fb1df60617af0a,6617c305fc13ae2ab5ab8a10,289,Employee Learning,SQL,,Pending
+6617d22596fb1df60617af0b,6617c305fc13ae2ab5ab8a11,222,Hostel Management,SQL,ullamcorper augue a suscipit nulla elit ac nulla sed vel enim sit amet nunc,Approved
+6617d22596fb1df60617af0c,6617c305fc13ae2ab5ab8a12,146,Library Management,Springboot,in purus eu magna vulputate luctus cum sociis natoque penatibus,Approved
+6617d22596fb1df60617af0d,6617c305fc13ae2ab5ab8a13,199,Sales Forecasting,Python,,Pending
+6617d22596fb1df60617af0e,6617c305fc13ae2ab5ab8a14,308,Timesheet,SQL,,Approved
+6617d22596fb1df60617af0f,6617c305fc13ae2ab5ab8a15,420,Skill Matrix,Machine Learning,donec posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam,Pending
+6617d22596fb1df60617af10,6617c305fc13ae2ab5ab8a16,316,Hostel Management,PowerBi,interdum venenatis turpis enim blandit mi in porttitor pede justo eu massa donec dapibus duis,Approved
+6617d22596fb1df60617af11,6617c305fc13ae2ab5ab8a17,152,Student Management,Angular,in congue etiam justo etiam pretium iaculis justo in hac habitasse,Pending
+6617d22596fb1df60617af12,6617c305fc13ae2ab5ab8a18,323,Timesheet,Springboot,id lobortis convallis tortor risus dapibus augue vel accumsan tellus nisi eu,Approved
+6617d22596fb1df60617af13,6617c305fc13ae2ab5ab8a19,177,Timesheet,Python,condimentum id luctus nec molestie sed justo pellentesque viverra pede ac diam cras,Approved
+6617d22596fb1df60617af14,6617c305fc13ae2ab5ab8a1a,150,Sales Activity,Bootstrap,,Approved
+6617d22596fb1df60617af15,6617c305fc13ae2ab5ab8a1b,132,Skill Matrix,React,pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna ut,Approved
+6617d22596fb1df60617af16,6617c305fc13ae2ab5ab8a1c,102,BAU Activity,Angular,,Approved
+6617d22596fb1df60617af17,6617c305fc13ae2ab5ab8a1d,126,Sales Forecasting,Node,pulvinar nulla pede ullamcorper augue a suscipit nulla elit ac,Approved
+6617d22596fb1df60617af18,6617c305fc13ae2ab5ab8a1e,193,BAU Activity,Angular,et ultrices posuere cubilia curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi,Pending
+6617d22596fb1df60617af19,6617c305fc13ae2ab5ab8a1f,248,Revenue Prediction,PowerBi,,Approved
+6617d22596fb1df60617af1a,6617c305fc13ae2ab5ab8a20,71,Sales Activity,Python,,Pending
+6617d22596fb1df60617af1b,6617c305fc13ae2ab5ab8a21,481,Sales Activity,MongoDB,,Approved
+6617d22596fb1df60617af1c,6617c305fc13ae2ab5ab8a22,201,Library Management,React,luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi,Pending
+6617d22596fb1df60617af1d,6617c305fc13ae2ab5ab8a23,168,Library Management,Springboot,,Approved
+6617d22596fb1df60617af1e,6617c305fc13ae2ab5ab8a24,155,Employee Training,PowerBi,,Pending
+6617d22596fb1df60617af1f,6617c305fc13ae2ab5ab8a25,114,Revenue Prediction,Java,duis faucibus accumsan odio curabitur convallis duis consequat dui nec nisi volutpat eleifend,Approved
+6617d22596fb1df60617af20,6617c305fc13ae2ab5ab8a26,94,Library Management,PowerBi,integer ac neque duis bibendum morbi non quam nec dui luctus rutrum nulla,Approved
+6617d22696fb1df60617af21,6617c305fc13ae2ab5ab8a27,298,Employee Training,Machine Learning,ut tellus nulla ut erat id mauris vulputate elementum nullam varius,Approved
+6617d22696fb1df60617af22,6617c305fc13ae2ab5ab8a28,478,Library Management,Deep Learning,,Approved
+6617d22696fb1df60617af23,6617c305fc13ae2ab5ab8a29,482,Library Management,Deep Learning,,Pending
+6617d22696fb1df60617af24,6617c305fc13ae2ab5ab8a2a,31,Employee Training,Machine Learning,lacus at velit vivamus vel nulla eget eros elementum pellentesque quisque porta volutpat,Pending
+6617d22696fb1df60617af25,6617c305fc13ae2ab5ab8a2b,36,Medical Analysis,SQL,,Approved
+6617d22696fb1df60617af26,6617c305fc13ae2ab5ab8a2c,246,Employee Learning,Bootstrap,,Approved
+6617d22696fb1df60617af27,6617c305fc13ae2ab5ab8a2d,233,Timesheet,Bootstrap,etiam vel augue vestibulum rutrum rutrum neque aenean auctor gravida sem,Pending
+6617d22696fb1df60617af28,6617c305fc13ae2ab5ab8a2e,234,Sales Activity,Bootstrap,,Approved
+6617d22696fb1df60617af29,6617c305fc13ae2ab5ab8a2f,412,Sales Activity,Springboot,,Approved
+6617d22696fb1df60617af2a,6617c305fc13ae2ab5ab8a30,42,Sales Activity,SQL,metus aenean fermentum donec ut mauris eget massa tempor convallis nulla neque,Approved
+6617d22696fb1df60617af2b,6617c305fc13ae2ab5ab8a31,472,Sales Forecasting,Angular,hac habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt,Approved
+6617d22696fb1df60617af2c,6617c305fc13ae2ab5ab8a32,326,Skill Matrix,Angular,amet eros suspendisse accumsan tortor quis turpis sed ante vivamus,Approved
+6617d22696fb1df60617af2d,6617c305fc13ae2ab5ab8a33,186,Hostel Management,Bootstrap,sit amet consectetuer adipiscing elit proin interdum mauris non ligula pellentesque,Pending
+6617d22696fb1df60617af2e,6617c305fc13ae2ab5ab8a34,407,Hostel Management,Python,vestibulum ac est lacinia nisi venenatis tristique fusce congue diam id ornare imperdiet,Approved
+6617d22696fb1df60617af2f,6617c305fc13ae2ab5ab8a35,31,Medical Analysis,Pearl,nulla suspendisse potenti cras in purus eu magna vulputate luctus cum sociis natoque,Pending
+6617d22696fb1df60617af30,6617c305fc13ae2ab5ab8a36,71,Skill Matrix,Pearl,,Approved
+6617d22696fb1df60617af31,6617c305fc13ae2ab5ab8a37,168,Employee Learning,Node,vestibulum aliquet ultrices erat tortor sollicitudin mi sit amet lobortis sapien sapien,Approved
+6617d22696fb1df60617af32,6617c305fc13ae2ab5ab8a38,481,BAU Activity,Angular,,Pending
+6617d22696fb1df60617af33,6617c305fc13ae2ab5ab8a39,369,Employee Training,Python,quam sapien varius ut blandit non interdum in ante vestibulum ante ipsum primis in,Approved
+6617d22696fb1df60617af34,6617c305fc13ae2ab5ab8a3a,445,Revenue Prediction,Bootstrap,,Approved
+6617d22696fb1df60617af35,6617c305fc13ae2ab5ab8a3b,57,Employee Learning,Bootstrap,donec dapibus duis at velit eu est congue elementum in hac habitasse platea dictumst,Pending
+6617d22696fb1df60617af36,6617c305fc13ae2ab5ab8a3c,80,Sales Activity,Deep Learning,sem fusce consequat nulla nisl nunc nisl duis bibendum felis sed interdum venenatis turpis,Pending
+6617d22696fb1df60617af37,6617c305fc13ae2ab5ab8a3d,421,Employee Learning,PowerBi,,Approved
+6617d22696fb1df60617af38,6617c305fc13ae2ab5ab8a3e,42,Hostel Management,Node,sapien arcu sed augue aliquam erat volutpat in congue etiam justo etiam,Approved
+6617d22696fb1df60617af39,6617c305fc13ae2ab5ab8a3f,12,Hostel Management,DBT,quam fringilla rhoncus mauris enim leo rhoncus sed vestibulum sit amet cursus id turpis integer,Pending
+6617d22696fb1df60617af3a,6617c305fc13ae2ab5ab8a40,203,Library Management,PowerBi,,Pending
+6617d22696fb1df60617af3b,6617c305fc13ae2ab5ab8a41,191,Skill Matrix,SQL,habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum justo nec,Approved
+6617d22696fb1df60617af3c,6617c305fc13ae2ab5ab8a42,106,Medical Analysis,Springboot,,Approved
+6617d22696fb1df60617af3d,6617c305fc13ae2ab5ab8a43,12,Revenue Prediction,Bootstrap,vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer,Approved
+6617d22696fb1df60617af3e,6617c305fc13ae2ab5ab8a44,225,BAU Activity,PowerBi,suspendisse potenti cras in purus eu magna vulputate luctus cum sociis,Approved
+6617d22696fb1df60617af3f,6617c305fc13ae2ab5ab8a45,107,Revenue Prediction,Machine Learning,,Approved
+6617d22696fb1df60617af40,6617c305fc13ae2ab5ab8a46,94,Medical Analysis,Pearl,,Approved
+6617d22696fb1df60617af41,6617c305fc13ae2ab5ab8a47,482,Hostel Management,Python,et magnis dis parturient montes nascetur ridiculus mus vivamus vestibulum sagittis sapien cum sociis natoque,Pending
+6617d22696fb1df60617af42,6617c305fc13ae2ab5ab8a48,243,Sales Activity,DBT,purus phasellus in felis donec semper sapien a libero nam,Pending
+6617d22696fb1df60617af43,6617c305fc13ae2ab5ab8a49,122,Sales Activity,SQL,felis donec semper sapien a libero nam dui proin leo odio,Approved
+6617d22696fb1df60617af44,6617c305fc13ae2ab5ab8a4a,101,Medical Analysis,PowerBi,felis fusce posuere felis sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed,Pending
+6617d22696fb1df60617af45,6617c305fc13ae2ab5ab8a4b,61,Medical Analysis,Bootstrap,purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend,Approved
+6617d22796fb1df60617af46,6617c305fc13ae2ab5ab8a4c,237,Student Management,MongoDB,volutpat eleifend donec ut dolor morbi vel lectus in quam,Pending
+6617d22796fb1df60617af47,6617c305fc13ae2ab5ab8a4d,314,Sales Forecasting,MongoDB,fusce consequat nulla nisl nunc nisl duis bibendum felis sed interdum venenatis,Approved
+6617d22796fb1df60617af48,6617c305fc13ae2ab5ab8a4e,451,Hostel Management,Java,,Pending
+6617d22796fb1df60617af49,6617c305fc13ae2ab5ab8a4f,239,Student Management,Machine Learning,eros vestibulum ac est lacinia nisi venenatis tristique fusce congue diam id ornare imperdiet,Pending
+6617d22796fb1df60617af4a,6617c305fc13ae2ab5ab8a50,372,Sales Forecasting,Springboot,lectus suspendisse potenti in eleifend quam a odio in hac habitasse platea dictumst maecenas,Pending
+6617d22796fb1df60617af4b,6617c305fc13ae2ab5ab8a51,484,Employee Training,PowerBi,,Pending
+6617d22796fb1df60617af4c,6617c305fc13ae2ab5ab8a52,321,Student Management,Node,curabitur convallis duis consequat dui nec nisi volutpat eleifend donec ut dolor,Approved
+6617d22796fb1df60617af4d,6617c305fc13ae2ab5ab8a53,193,Hostel Management,Machine Learning,,Approved
+6617d22796fb1df60617af4e,6617c305fc13ae2ab5ab8a54,84,Skill Matrix,Java,sit amet sem fusce consequat nulla nisl nunc nisl duis bibendum felis sed interdum,Approved
+6617d22796fb1df60617af4f,6617c305fc13ae2ab5ab8a55,173,Sales Forecasting,Python,non lectus aliquam sit amet diam in magna bibendum imperdiet nullam orci pede,Approved
+6617d22796fb1df60617af50,6617c305fc13ae2ab5ab8a56,158,Student Management,SQL,turpis eget elit sodales scelerisque mauris sit amet eros suspendisse,Approved
+6617d22796fb1df60617af51,6617c305fc13ae2ab5ab8a57,168,Library Management,Java,,Approved
+6617d22796fb1df60617af52,6617c305fc13ae2ab5ab8a58,151,Employee Training,Bootstrap,orci luctus et ultrices posuere cubilia curae nulla dapibus dolor vel est,Approved
+6617d22796fb1df60617af53,6617c305fc13ae2ab5ab8a59,9,Timesheet,PowerBi,,Approved
+6617d22796fb1df60617af54,6617c305fc13ae2ab5ab8a5a,289,Employee Learning,React,mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus at turpis donec posuere metus,Pending
+6617d22796fb1df60617af55,6617c305fc13ae2ab5ab8a5b,38,Employee Training,Angular,dis parturient montes nascetur ridiculus mus vivamus vestibulum sagittis sapien cum,Pending
+6617d22796fb1df60617af56,6617c305fc13ae2ab5ab8a5c,78,Sales Forecasting,Pearl,,Pending
+6617d22796fb1df60617af57,6617c305fc13ae2ab5ab8a5d,9,Employee Training,Pearl,rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis,Pending
+6617d22796fb1df60617af58,6617c305fc13ae2ab5ab8a5e,380,Sales Forecasting,Node,,Approved
+6617d22796fb1df60617af59,6617c305fc13ae2ab5ab8a5f,247,Medical Analysis,Pearl,,Approved
+6617d22796fb1df60617af5a,6617c305fc13ae2ab5ab8a60,348,Sales Forecasting,Angular,,Approved
+6617d22796fb1df60617af5b,6617c305fc13ae2ab5ab8a61,95,Medical Analysis,Pearl,quis turpis eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan,Pending
+6617d22796fb1df60617af5c,6617c305fc13ae2ab5ab8a62,304,Sales Activity,Machine Learning,curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi,Pending
+6617d22796fb1df60617af5d,6617c305fc13ae2ab5ab8a63,5,Student Management,Angular,ultricies eu nibh quisque id justo sit amet sapien dignissim vestibulum,Pending
+6617d22796fb1df60617af5e,6617c305fc13ae2ab5ab8a64,152,Sales Forecasting,Python,erat quisque erat eros viverra eget congue eget semper rutrum nulla nunc,Approved
+6617d22796fb1df60617af5f,6617c305fc13ae2ab5ab8a65,230,BAU Activity,Node,nulla eget eros elementum pellentesque quisque porta volutpat erat quisque erat eros viverra eget,Approved
+6617d22796fb1df60617af60,6617c305fc13ae2ab5ab8a66,415,Library Management,MongoDB,lacus at turpis donec posuere metus vitae ipsum aliquam non mauris,Pending
+6617d22796fb1df60617af61,6617c305fc13ae2ab5ab8a67,327,Hostel Management,Python,,Approved
+6617d22796fb1df60617af62,6617c305fc13ae2ab5ab8a68,360,Skill Matrix,Machine Learning,augue vel accumsan tellus nisi eu orci mauris lacinia sapien quis libero,Approved
+6617d22796fb1df60617af63,6617c305fc13ae2ab5ab8a69,91,Revenue Prediction,Deep Learning,sagittis sapien cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus,Approved
+6617d22796fb1df60617af64,6617c305fc13ae2ab5ab8a6a,60,Revenue Prediction,Bootstrap,,Approved
+6617d22796fb1df60617af65,6617c305fc13ae2ab5ab8a6b,63,BAU Activity,Pearl,nascetur ridiculus mus etiam vel augue vestibulum rutrum rutrum neque aenean auctor,Approved
+6617d22796fb1df60617af66,6617c305fc13ae2ab5ab8a6c,415,BAU Activity,Node,tempus vivamus in felis eu sapien cursus vestibulum proin eu mi,Approved
+6617d22796fb1df60617af67,6617c305fc13ae2ab5ab8a6d,223,Library Management,Python,vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia,Approved
+6617d22796fb1df60617af68,6617c305fc13ae2ab5ab8a6e,21,Revenue Prediction,Springboot,luctus rutrum nulla tellus in sagittis dui vel nisl duis ac nibh fusce lacus purus,Approved
+6617d22796fb1df60617af69,6617c305fc13ae2ab5ab8a6f,316,Sales Activity,Angular,dolor vel est donec odio justo sollicitudin ut suscipit a feugiat et,Pending
+6617d22796fb1df60617af6a,6617c305fc13ae2ab5ab8a70,329,Employee Training,MongoDB,mauris sit amet eros suspendisse accumsan tortor quis turpis sed,Pending
+6617d22896fb1df60617af6b,6617c305fc13ae2ab5ab8a71,24,Sales Activity,Deep Learning,,Pending
+6617d22896fb1df60617af6c,6617c305fc13ae2ab5ab8a72,479,Skill Matrix,Node,nunc donec quis orci eget orci vehicula condimentum curabitur in libero ut massa volutpat convallis,Pending
+6617d22896fb1df60617af6d,6617c305fc13ae2ab5ab8a73,419,Hostel Management,Springboot,eget congue eget semper rutrum nulla nunc purus phasellus in felis donec semper sapien,Approved
+6617d22896fb1df60617af6e,6617c305fc13ae2ab5ab8a74,102,Revenue Prediction,PowerBi,,Approved
+6617d22896fb1df60617af6f,6617c305fc13ae2ab5ab8a75,316,Timesheet,Angular,nullam sit amet turpis elementum ligula vehicula consequat morbi a ipsum integer a,Approved
+6617d22896fb1df60617af70,6617c305fc13ae2ab5ab8a76,161,Sales Forecasting,Python,etiam vel augue vestibulum rutrum rutrum neque aenean auctor gravida,Approved
+6617d22896fb1df60617af71,6617c305fc13ae2ab5ab8a77,334,Employee Learning,Java,,Pending
+6617d22896fb1df60617af72,6617c305fc13ae2ab5ab8a78,39,Medical Analysis,SQL,tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at,Pending
+6617d22896fb1df60617af73,6617c305fc13ae2ab5ab8a79,355,Sales Activity,Python,eros vestibulum ac est lacinia nisi venenatis tristique fusce congue,Pending
+6617d22896fb1df60617af74,6617c305fc13ae2ab5ab8a7a,87,Student Management,Node,,Pending
+6617d22896fb1df60617af75,6617c305fc13ae2ab5ab8a7b,246,BAU Activity,DBT,fusce consequat nulla nisl nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit,Approved
+6617d22896fb1df60617af76,6617c305fc13ae2ab5ab8a7c,80,Sales Activity,MongoDB,pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices,Pending
+6617d22896fb1df60617af77,6617c305fc13ae2ab5ab8a7d,143,Skill Matrix,Bootstrap,morbi vel lectus in quam fringilla rhoncus mauris enim leo rhoncus sed vestibulum,Approved
+6617d22896fb1df60617af78,6617c305fc13ae2ab5ab8a7e,161,Medical Analysis,DBT,,Pending
+6617d22896fb1df60617af79,6617c305fc13ae2ab5ab8a7f,145,Employee Training,Python,,Approved
+6617d22896fb1df60617af7a,6617c305fc13ae2ab5ab8a80,470,Timesheet,Pearl,ante vestibulum ante ipsum primis in faucibus orci luctus et,Approved
+6617d22896fb1df60617af7b,6617c305fc13ae2ab5ab8a81,435,Skill Matrix,Deep Learning,massa id lobortis convallis tortor risus dapibus augue vel accumsan tellus nisi eu,Approved
+6617d22896fb1df60617af7c,6617c305fc13ae2ab5ab8a82,71,BAU Activity,Python,molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc donec,Pending
+6617d22896fb1df60617af7d,6617c305fc13ae2ab5ab8a83,37,BAU Activity,Bootstrap,amet lobortis sapien sapien non mi integer ac neque duis bibendum morbi non quam nec,Pending
+6617d22896fb1df60617af7e,6617c305fc13ae2ab5ab8a84,451,Skill Matrix,Machine Learning,,Approved
+6617d22896fb1df60617af7f,6617c305fc13ae2ab5ab8a85,10,Student Management,Deep Learning,lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit,Approved
+6617d22896fb1df60617af80,6617c305fc13ae2ab5ab8a86,367,Library Management,MongoDB,blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer,Approved
+6617d22896fb1df60617af81,6617c305fc13ae2ab5ab8a87,105,Sales Activity,React,ornare consequat lectus in est risus auctor sed tristique in tempus sit amet sem fusce,Approved
+6617d22896fb1df60617af82,6617c305fc13ae2ab5ab8a88,293,Timesheet,PowerBi,ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at,Approved
+6617d22896fb1df60617af83,6617c305fc13ae2ab5ab8a89,169,Revenue Prediction,Java,,Pending
+6617d22896fb1df60617af84,6617c305fc13ae2ab5ab8a8a,332,Skill Matrix,Bootstrap,sapien cursus vestibulum proin eu mi nulla ac enim in,Approved
+6617d22896fb1df60617af85,6617c305fc13ae2ab5ab8a8b,251,Skill Matrix,Pearl,tortor sollicitudin mi sit amet lobortis sapien sapien non mi integer ac,Approved
+6617d22896fb1df60617af86,6617c305fc13ae2ab5ab8a8c,450,Revenue Prediction,Angular,elementum pellentesque quisque porta volutpat erat quisque erat eros viverra eget,Pending
+6617d22896fb1df60617af87,6617c305fc13ae2ab5ab8a8d,294,Sales Activity,Node,est quam pharetra magna ac consequat metus sapien ut nunc vestibulum ante,Approved
+6617d22896fb1df60617af88,6617c305fc13ae2ab5ab8a8e,57,Sales Activity,Bootstrap,,Pending
+6617d22896fb1df60617af89,6617c305fc13ae2ab5ab8a8f,411,Sales Forecasting,MongoDB,,Pending
+6617d22896fb1df60617af8a,6617c305fc13ae2ab5ab8a90,183,Skill Matrix,Pearl,felis ut at dolor quis odio consequat varius integer ac leo pellentesque ultrices mattis,Pending
+6617d22896fb1df60617af8b,6617c305fc13ae2ab5ab8a91,86,Sales Activity,Java,ridiculus mus etiam vel augue vestibulum rutrum rutrum neque aenean,Pending
+6617d22896fb1df60617af8c,6617c305fc13ae2ab5ab8a92,217,Revenue Prediction,MongoDB,duis mattis egestas metus aenean fermentum donec ut mauris eget,Pending
+6617d22896fb1df60617af8d,6617c305fc13ae2ab5ab8a93,369,Skill Matrix,Machine Learning,,Approved
+6617d22896fb1df60617af8e,6617c305fc13ae2ab5ab8a94,315,Employee Training,Pearl,mattis pulvinar nulla pede ullamcorper augue a suscipit nulla elit ac nulla sed vel enim,Approved
+6617d22896fb1df60617af8f,6617c305fc13ae2ab5ab8a95,372,Sales Activity,React,donec quis orci eget orci vehicula condimentum curabitur in libero ut,Approved
+6617d22996fb1df60617af90,6617c305fc13ae2ab5ab8a96,445,Skill Matrix,Node,consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent,Approved
+6617d22996fb1df60617af91,6617c305fc13ae2ab5ab8a97,298,Revenue Prediction,Deep Learning,lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc,Pending
+6617d22996fb1df60617af92,6617c305fc13ae2ab5ab8a98,286,Employee Learning,Bootstrap,dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia,Approved
+6617d22996fb1df60617af93,6617c305fc13ae2ab5ab8a99,188,Library Management,MongoDB,varius ut blandit non interdum in ante vestibulum ante ipsum primis in,Approved
+6617d22996fb1df60617af94,6617c305fc13ae2ab5ab8a9a,403,BAU Activity,Node,cursus id turpis integer aliquet massa id lobortis convallis tortor risus dapibus augue vel,Approved
+6617d22996fb1df60617af95,6617c305fc13ae2ab5ab8a9b,126,Sales Forecasting,Machine Learning,,Approved
+6617d22996fb1df60617af96,6617c305fc13ae2ab5ab8a9c,472,BAU Activity,Python,morbi odio odio elementum eu interdum eu tincidunt in leo,Approved
+6617d22996fb1df60617af97,6617c305fc13ae2ab5ab8a9d,370,Employee Training,Java,velit eu est congue elementum in hac habitasse platea dictumst morbi vestibulum velit id,Approved
+6617d22996fb1df60617af98,6617c305fc13ae2ab5ab8a9e,115,Employee Training,Deep Learning,ac nulla sed vel enim sit amet nunc viverra dapibus nulla suscipit ligula,Pending
+6617d22996fb1df60617af99,6617c305fc13ae2ab5ab8a9f,135,Timesheet,Springboot,felis ut at dolor quis odio consequat varius integer ac leo pellentesque,Approved
+6617d22996fb1df60617af9a,6617c305fc13ae2ab5ab8aa0,226,Student Management,Angular,volutpat eleifend donec ut dolor morbi vel lectus in quam fringilla rhoncus mauris enim leo,Approved
+6617d22996fb1df60617af9b,6617c305fc13ae2ab5ab8aa1,1,Sales Activity,Node,,Approved
+6617d22996fb1df60617af9c,6617c305fc13ae2ab5ab8aa2,344,Medical Analysis,Springboot,volutpat quam pede lobortis ligula sit amet eleifend pede libero quis orci nullam,Approved
+6617d22996fb1df60617af9d,6617c305fc13ae2ab5ab8aa3,80,Medical Analysis,Angular,quis turpis sed ante vivamus tortor duis mattis egestas metus aenean fermentum donec ut,Approved
+6617d22996fb1df60617af9e,6617c305fc13ae2ab5ab8aa4,172,Hostel Management,Angular,libero rutrum ac lobortis vel dapibus at diam nam tristique tortor,Approved
+6617d22996fb1df60617af9f,6617c305fc13ae2ab5ab8aa5,188,Student Management,Springboot,sem duis aliquam convallis nunc proin at turpis a pede posuere nonummy integer non,Approved
+6617d22996fb1df60617afa0,6617c305fc13ae2ab5ab8aa6,223,Employee Training,Node,elit proin interdum mauris non ligula pellentesque ultrices phasellus id sapien in sapien iaculis,Approved
+6617d22996fb1df60617afa1,6617c305fc13ae2ab5ab8aa7,176,Employee Learning,Machine Learning,ipsum primis in faucibus orci luctus et ultrices posuere cubilia,Pending
+6617d22996fb1df60617afa2,6617c305fc13ae2ab5ab8aa8,192,Library Management,Angular,nunc proin at turpis a pede posuere nonummy integer non velit,Approved
+6617d22996fb1df60617afa3,6617c305fc13ae2ab5ab8aa9,429,Library Management,Deep Learning,magnis dis parturient montes nascetur ridiculus mus etiam vel augue,Approved
+6617d22996fb1df60617afa4,6617c305fc13ae2ab5ab8aaa,224,Sales Activity,Bootstrap,posuere cubilia curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin,Approved
+6617d22996fb1df60617afa5,6617c305fc13ae2ab5ab8aab,153,Library Management,Bootstrap,at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget,Pending
+6617d22996fb1df60617afa6,6617c305fc13ae2ab5ab8aac,163,Sales Activity,MongoDB,id pretium iaculis diam erat fermentum justo nec condimentum neque sapien,Approved
+6617d22996fb1df60617afa7,6617c305fc13ae2ab5ab8aad,313,Revenue Prediction,Python,,Approved
+6617d22996fb1df60617afa8,6617c305fc13ae2ab5ab8aae,419,Timesheet,React,in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl,Approved
+6617d22996fb1df60617afa9,6617c305fc13ae2ab5ab8aaf,348,Sales Forecasting,Angular,tellus semper interdum mauris ullamcorper purus sit amet nulla quisque arcu libero rutrum ac lobortis,Pending
+6617d22996fb1df60617afaa,6617c305fc13ae2ab5ab8ab0,428,Medical Analysis,DBT,volutpat quam pede lobortis ligula sit amet eleifend pede libero quis orci,Pending
+6617d22996fb1df60617afab,6617c305fc13ae2ab5ab8ab1,189,Student Management,PowerBi,scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula nec sem,Pending
+6617d22996fb1df60617afac,6617c305fc13ae2ab5ab8ab2,311,Employee Learning,SQL,lobortis sapien sapien non mi integer ac neque duis bibendum morbi non quam nec dui,Pending
+6617d22996fb1df60617afad,6617c305fc13ae2ab5ab8ab3,151,Skill Matrix,Node,,Pending
+6617d22996fb1df60617afae,6617c305fc13ae2ab5ab8ab4,309,Sales Forecasting,Machine Learning,justo pellentesque viverra pede ac diam cras pellentesque volutpat dui maecenas tristique est et,Pending
+6617d22996fb1df60617afaf,6617c305fc13ae2ab5ab8ab5,131,Timesheet,MongoDB,pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus in est risus auctor sed,Pending
+6617d22996fb1df60617afb0,6617c305fc13ae2ab5ab8ab6,464,BAU Activity,React,interdum mauris non ligula pellentesque ultrices phasellus id sapien in sapien iaculis congue,Approved
+6617d22996fb1df60617afb1,6617c305fc13ae2ab5ab8ab7,244,Employee Training,MongoDB,cursus id turpis integer aliquet massa id lobortis convallis tortor risus dapibus augue,Approved
+6617d22996fb1df60617afb2,6617c305fc13ae2ab5ab8ab8,383,Library Management,Bootstrap,nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at nibh in hac habitasse,Approved
+6617d22996fb1df60617afb3,6617c305fc13ae2ab5ab8ab9,211,Hostel Management,Python,nullam varius nulla facilisi cras non velit nec nisi vulputate nonummy maecenas tincidunt lacus at,Approved
+6617d22a96fb1df60617afb4,6617c305fc13ae2ab5ab8aba,218,Medical Analysis,Deep Learning,dis parturient montes nascetur ridiculus mus etiam vel augue vestibulum rutrum rutrum neque aenean auctor,Approved
+6617d22a96fb1df60617afb5,6617c305fc13ae2ab5ab8abb,302,Employee Learning,Java,ultrices aliquet maecenas leo odio condimentum id luctus nec molestie sed justo,Approved
+6617d22a96fb1df60617afb6,6617c305fc13ae2ab5ab8abc,172,Hostel Management,Deep Learning,nibh in lectus pellentesque at nulla suspendisse potenti cras in purus,Approved
+6617d22a96fb1df60617afb7,6617c305fc13ae2ab5ab8abd,415,Revenue Prediction,Pearl,,Approved
+6617d22a96fb1df60617afb8,6617c305fc13ae2ab5ab8abe,229,BAU Activity,Node,vitae nisi nam ultrices libero non mattis pulvinar nulla pede ullamcorper augue a,Approved
+6617d22a96fb1df60617afb9,6617c305fc13ae2ab5ab8abf,5,Employee Learning,Java,nulla suspendisse potenti cras in purus eu magna vulputate luctus cum sociis natoque,Approved
+6617d22a96fb1df60617afba,6617c305fc13ae2ab5ab8ac0,372,Revenue Prediction,DBT,libero non mattis pulvinar nulla pede ullamcorper augue a suscipit nulla,Approved
+6617d22a96fb1df60617afbb,6617c305fc13ae2ab5ab8ac1,92,Sales Forecasting,PowerBi,proin eu mi nulla ac enim in tempor turpis nec euismod scelerisque quam,Approved
+6617d22a96fb1df60617afbc,6617c305fc13ae2ab5ab8ac2,214,Sales Forecasting,Machine Learning,ridiculus mus etiam vel augue vestibulum rutrum rutrum neque aenean,Pending
+6617d22a96fb1df60617afbd,6617c305fc13ae2ab5ab8ac3,21,Skill Matrix,DBT,,Approved
+6617d22a96fb1df60617afbe,6617c305fc13ae2ab5ab8ac4,150,Employee Training,React,duis bibendum morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui vel,Pending
+6617d22a96fb1df60617afbf,6617c305fc13ae2ab5ab8ac5,425,Skill Matrix,Java,,Approved
+6617d22a96fb1df60617afc0,6617c305fc13ae2ab5ab8ac6,175,Timesheet,Deep Learning,quam pharetra magna ac consequat metus sapien ut nunc vestibulum ante,Pending
+6617d22a96fb1df60617afc1,6617c305fc13ae2ab5ab8ac7,85,Hostel Management,React,,Approved
+6617d22a96fb1df60617afc2,6617c305fc13ae2ab5ab8ac8,37,Medical Analysis,Java,lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum mauris non ligula pellentesque,Pending
+6617d22a96fb1df60617afc3,6617c305fc13ae2ab5ab8ac9,449,Timesheet,MongoDB,turpis donec posuere metus vitae ipsum aliquam non mauris morbi non lectus,Pending
+6617d22a96fb1df60617afc4,6617c305fc13ae2ab5ab8aca,143,Hostel Management,Pearl,,Approved
+6617d22a96fb1df60617afc5,6617c305fc13ae2ab5ab8acb,11,Sales Activity,PowerBi,velit donec diam neque vestibulum eget vulputate ut ultrices vel augue vestibulum ante ipsum,Pending
+6617d22a96fb1df60617afc6,6617c305fc13ae2ab5ab8acc,144,Hostel Management,Python,,Approved
+6617d22a96fb1df60617afc7,6617c305fc13ae2ab5ab8acd,480,Hostel Management,React,,Approved
+6617d22a96fb1df60617afc8,6617c305fc13ae2ab5ab8ace,93,Employee Learning,React,amet consectetuer adipiscing elit proin risus praesent lectus vestibulum quam sapien varius ut blandit,Approved
+6617d22a96fb1df60617afc9,6617c305fc13ae2ab5ab8acf,10,Revenue Prediction,Node,quisque id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in,Pending
+6617d22a96fb1df60617afca,6617c305fc13ae2ab5ab8ad0,154,Employee Learning,Python,,Approved
+6617d22a96fb1df60617afcb,6617c305fc13ae2ab5ab8ad1,36,Sales Forecasting,React,eu magna vulputate luctus cum sociis natoque penatibus et magnis dis parturient montes nascetur,Approved
+6617d22a96fb1df60617afcc,6617c305fc13ae2ab5ab8ad2,175,Medical Analysis,Machine Learning,,Approved
+6617d22a96fb1df60617afcd,6617c305fc13ae2ab5ab8ad3,24,BAU Activity,Angular,,Approved
+6617d22a96fb1df60617afce,6617c305fc13ae2ab5ab8ad4,57,Timesheet,Angular,risus semper porta volutpat quam pede lobortis ligula sit amet eleifend,Approved
+6617d22a96fb1df60617afcf,6617c305fc13ae2ab5ab8ad5,69,BAU Activity,Angular,ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia,Pending
+6617d22a96fb1df60617afd0,6617c305fc13ae2ab5ab8ad6,79,Employee Learning,Pearl,nunc donec quis orci eget orci vehicula condimentum curabitur in libero ut,Pending
+6617d22a96fb1df60617afd1,6617c305fc13ae2ab5ab8ad7,306,Revenue Prediction,Springboot,turpis integer aliquet massa id lobortis convallis tortor risus dapibus augue vel,Pending
+6617d22a96fb1df60617afd2,6617c305fc13ae2ab5ab8ad8,245,Student Management,Springboot,,Approved
+6617d22a96fb1df60617afd3,6617c305fc13ae2ab5ab8ad9,325,Timesheet,SQL,habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum justo nec,Pending
+6617d22a96fb1df60617afd4,6617c305fc13ae2ab5ab8ada,355,Sales Activity,Java,erat id mauris vulputate elementum nullam varius nulla facilisi cras non velit nec nisi,Approved
+6617d22a96fb1df60617afd5,6617c305fc13ae2ab5ab8adb,307,Library Management,Pearl,faucibus cursus urna ut tellus nulla ut erat id mauris,Approved
+6617d22a96fb1df60617afd6,6617c305fc13ae2ab5ab8adc,244,Revenue Prediction,Angular,,Pending
+6617d22a96fb1df60617afd7,6617c305fc13ae2ab5ab8add,39,Employee Learning,React,consequat dui nec nisi volutpat eleifend donec ut dolor morbi vel,Approved
+6617d22a96fb1df60617afd8,6617c305fc13ae2ab5ab8ade,423,Hostel Management,Angular,in quam fringilla rhoncus mauris enim leo rhoncus sed vestibulum sit amet cursus id turpis,Approved
+6617d22a96fb1df60617afd9,6617c305fc13ae2ab5ab8adf,128,Hostel Management,MongoDB,turpis elementum ligula vehicula consequat morbi a ipsum integer a nibh in quis,Pending
+6617d22b96fb1df60617afda,6617c305fc13ae2ab5ab8ae0,136,Sales Activity,Bootstrap,ac leo pellentesque ultrices mattis odio donec vitae nisi nam ultrices,Approved
+6617d22b96fb1df60617afdb,6617c305fc13ae2ab5ab8ae1,234,Library Management,SQL,volutpat eleifend donec ut dolor morbi vel lectus in quam fringilla rhoncus mauris enim,Pending
+6617d22b96fb1df60617afdc,6617c305fc13ae2ab5ab8ae2,368,Student Management,React,erat vestibulum sed magna at nunc commodo placerat praesent blandit,Approved
+6617d22b96fb1df60617afdd,6617c305fc13ae2ab5ab8ae3,426,Employee Training,Python,,Pending
+6617d22b96fb1df60617afde,6617c305fc13ae2ab5ab8ae4,176,Medical Analysis,Node,neque aenean auctor gravida sem praesent id massa id nisl venenatis lacinia aenean sit amet,Approved
+6617d22b96fb1df60617afdf,6617c305fc13ae2ab5ab8ae5,309,Timesheet,MongoDB,,Approved
+6617d22b96fb1df60617afe0,6617c305fc13ae2ab5ab8ae6,325,Employee Training,Python,,Approved
+6617d22b96fb1df60617afe1,6617c305fc13ae2ab5ab8ae7,463,Sales Activity,Bootstrap,ac est lacinia nisi venenatis tristique fusce congue diam id ornare imperdiet sapien urna,Approved
+6617d22b96fb1df60617afe2,6617c305fc13ae2ab5ab8ae8,57,Timesheet,Springboot,at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum,Approved
+6617d22b96fb1df60617afe3,6617c305fc13ae2ab5ab8ae9,169,Employee Training,Deep Learning,,Approved
+6617d22b96fb1df60617afe4,6617c305fc13ae2ab5ab8aea,440,BAU Activity,DBT,eu nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum,Approved
+6617d22b96fb1df60617afe5,6617c305fc13ae2ab5ab8aeb,370,Employee Learning,SQL,,Approved
+6617d22b96fb1df60617afe6,6617c305fc13ae2ab5ab8aec,29,BAU Activity,Deep Learning,duis at velit eu est congue elementum in hac habitasse platea,Pending
+6617d22b96fb1df60617afe7,6617c305fc13ae2ab5ab8aed,214,Employee Training,Angular,iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean,Approved
+6617d22b96fb1df60617afe8,6617c305fc13ae2ab5ab8aee,483,Sales Activity,Node,vulputate luctus cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus,Approved
+6617d22b96fb1df60617afe9,6617c305fc13ae2ab5ab8aef,42,Employee Learning,DBT,,Pending
+6617d22b96fb1df60617afea,6617c305fc13ae2ab5ab8af0,81,Revenue Prediction,SQL,,Approved
+6617d22b96fb1df60617afeb,6617c305fc13ae2ab5ab8af1,1,Student Management,Python,,Pending
+6617d22b96fb1df60617afec,6617c305fc13ae2ab5ab8af2,220,Employee Learning,Springboot,eget eleifend luctus ultricies eu nibh quisque id justo sit amet,Approved
+6617d22b96fb1df60617afed,6617c305fc13ae2ab5ab8af3,338,Library Management,DBT,at feugiat non pretium quis lectus suspendisse potenti in eleifend quam a odio in hac,Approved
+6617d22b96fb1df60617afee,6617c305fc13ae2ab5ab8af4,12,BAU Activity,Python,,Approved
+6617d22b96fb1df60617afef,6617c305fc13ae2ab5ab8af5,191,Student Management,Pearl,,Pending
+6617d22b96fb1df60617aff0,6617c305fc13ae2ab5ab8af6,439,Employee Training,Node,nisl duis bibendum felis sed interdum venenatis turpis enim blandit mi in porttitor pede,Approved
+6617d22b96fb1df60617aff1,6617c305fc13ae2ab5ab8af7,4,Library Management,Angular,mauris non ligula pellentesque ultrices phasellus id sapien in sapien iaculis congue vivamus metus,Pending
+6617d22b96fb1df60617aff2,6617c305fc13ae2ab5ab8af8,370,Employee Training,React,,Pending
+6617d22b96fb1df60617aff3,6617c305fc13ae2ab5ab8af9,241,Library Management,PowerBi,parturient montes nascetur ridiculus mus vivamus vestibulum sagittis sapien cum sociis natoque penatibus et,Pending
+6617d22b96fb1df60617aff4,6617c305fc13ae2ab5ab8afa,300,Timesheet,Machine Learning,in tempor turpis nec euismod scelerisque quam turpis adipiscing lorem vitae,Approved
+6617d22b96fb1df60617aff5,6617c305fc13ae2ab5ab8afb,91,Revenue Prediction,Angular,porttitor id consequat in consequat ut nulla sed accumsan felis ut,Approved
+6617d22b96fb1df60617aff6,6617c305fc13ae2ab5ab8afc,230,Student Management,Springboot,elit proin risus praesent lectus vestibulum quam sapien varius ut blandit,Approved
+6617d22b96fb1df60617aff7,6617c305fc13ae2ab5ab8afd,78,Medical Analysis,Machine Learning,,Approved
+6617d22b96fb1df60617aff8,6617c305fc13ae2ab5ab8afe,242,Sales Activity,Java,consequat dui nec nisi volutpat eleifend donec ut dolor morbi vel,Approved
+6617d22b96fb1df60617aff9,6617c305fc13ae2ab5ab8aff,251,Sales Activity,Springboot,,Pending
+6617d22b96fb1df60617affa,6617c305fc13ae2ab5ab8b00,328,Library Management,Angular,nascetur ridiculus mus etiam vel augue vestibulum rutrum rutrum neque aenean auctor,Approved
+6617d22b96fb1df60617affb,6617c305fc13ae2ab5ab8b01,366,Sales Forecasting,SQL,,Pending
+6617d22b96fb1df60617affc,6617c305fc13ae2ab5ab8b02,90,Sales Forecasting,SQL,aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula,Pending
+6617d22b96fb1df60617affd,6617c305fc13ae2ab5ab8b03,196,Revenue Prediction,MongoDB,at velit vivamus vel nulla eget eros elementum pellentesque quisque porta volutpat erat quisque erat,Approved
+6617d22c96fb1df60617affe,6617c305fc13ae2ab5ab8b04,311,Student Management,Node,,Approved
+6617d22c96fb1df60617afff,6617c305fc13ae2ab5ab8b05,383,Revenue Prediction,Pearl,sollicitudin mi sit amet lobortis sapien sapien non mi integer ac neque duis bibendum,Approved
+6617d22c96fb1df60617b000,6617c305fc13ae2ab5ab8b06,240,Timesheet,DBT,,Approved
+6617d22c96fb1df60617b001,6617c305fc13ae2ab5ab8b07,97,Skill Matrix,Angular,,Pending
+6617d22c96fb1df60617b002,6617c305fc13ae2ab5ab8b08,332,Sales Activity,React,accumsan felis ut at dolor quis odio consequat varius integer ac leo pellentesque ultrices mattis,Approved
+6617d22c96fb1df60617b003,6617c305fc13ae2ab5ab8b09,293,Hostel Management,Bootstrap,,Approved
+6617d22c96fb1df60617b004,6617c305fc13ae2ab5ab8b0a,333,Skill Matrix,DBT,vivamus vestibulum sagittis sapien cum sociis natoque penatibus et magnis,Approved
+6617d22c96fb1df60617b005,6617c305fc13ae2ab5ab8b0b,305,Hostel Management,Springboot,,Approved
+6617d22c96fb1df60617b006,6617c305fc13ae2ab5ab8b0c,235,Sales Activity,DBT,,Pending
+6617d22c96fb1df60617b007,6617c305fc13ae2ab5ab8b0d,1,Skill Matrix,Node,volutpat in congue etiam justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam,Pending
+6617d22c96fb1df60617b008,6617c305fc13ae2ab5ab8b0e,4,Hostel Management,MongoDB,eleifend luctus ultricies eu nibh quisque id justo sit amet sapien dignissim vestibulum,Approved
+6617d22c96fb1df60617b009,6617c305fc13ae2ab5ab8b0f,422,Sales Activity,React,posuere cubilia curae donec pharetra magna vestibulum aliquet ultrices erat tortor,Approved
+6617d22c96fb1df60617b00a,6617c305fc13ae2ab5ab8b10,51,Medical Analysis,MongoDB,,Approved
+6617d22c96fb1df60617b00b,6617c305fc13ae2ab5ab8b11,186,Hostel Management,Node,venenatis non sodales sed tincidunt eu felis fusce posuere felis sed lacus morbi,Approved
+6617d22c96fb1df60617b00c,6617c305fc13ae2ab5ab8b12,57,Employee Training,React,,Approved
+6617d22c96fb1df60617b00d,6617c305fc13ae2ab5ab8b13,462,Student Management,Python,vestibulum velit id pretium iaculis diam erat fermentum justo nec,Pending
+6617d22c96fb1df60617b00e,6617c305fc13ae2ab5ab8b14,222,Employee Training,Machine Learning,,Approved
+6617d22c96fb1df60617b00f,6617c305fc13ae2ab5ab8b15,39,Skill Matrix,Deep Learning,libero nam dui proin leo odio porttitor id consequat in,Approved
+6617d22c96fb1df60617b010,6617c305fc13ae2ab5ab8b16,105,BAU Activity,React,dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum justo nec condimentum neque,Approved
+6617d22c96fb1df60617b011,6617c305fc13ae2ab5ab8b17,327,Revenue Prediction,Java,purus sit amet nulla quisque arcu libero rutrum ac lobortis vel dapibus,Approved
+6617d22c96fb1df60617b012,6617c305fc13ae2ab5ab8b18,202,Student Management,Springboot,vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia,Approved
+6617d22c96fb1df60617b013,6617c305fc13ae2ab5ab8b19,355,Sales Forecasting,DBT,in leo maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus in felis,Approved
+6617d22c96fb1df60617b014,6617c305fc13ae2ab5ab8b1a,307,Employee Training,Deep Learning,,Approved
+6617d22c96fb1df60617b015,6617c305fc13ae2ab5ab8b1b,126,Library Management,Deep Learning,vulputate ut ultrices vel augue vestibulum ante ipsum primis in faucibus orci luctus et ultrices,Approved
+6617d22c96fb1df60617b016,6617c305fc13ae2ab5ab8b1c,71,Hostel Management,Java,,Approved
+6617d22c96fb1df60617b017,6617c305fc13ae2ab5ab8b1d,86,Library Management,DBT,ipsum dolor sit amet consectetuer adipiscing elit proin risus praesent,Approved
+6617d22c96fb1df60617b018,6617c305fc13ae2ab5ab8b1e,146,Employee Learning,Pearl,,Approved
+6617d22c96fb1df60617b019,6617c305fc13ae2ab5ab8b1f,21,Sales Activity,Deep Learning,aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur in,Approved
+6617d22c96fb1df60617b01a,6617c305fc13ae2ab5ab8b20,46,Student Management,SQL,elit ac nulla sed vel enim sit amet nunc viverra dapibus nulla suscipit ligula in,Pending
+6617d22c96fb1df60617b01b,6617c305fc13ae2ab5ab8b21,133,Sales Forecasting,Node,magna at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt,Approved
+6617d22c96fb1df60617b01c,6617c305fc13ae2ab5ab8b22,199,Sales Activity,PowerBi,vel accumsan tellus nisi eu orci mauris lacinia sapien quis libero nullam sit,Pending
+6617d22c96fb1df60617b01d,6617c305fc13ae2ab5ab8b23,140,Library Management,MongoDB,,Approved
+6617d22c96fb1df60617b01e,6617c305fc13ae2ab5ab8b24,203,Medical Analysis,Java,nunc viverra dapibus nulla suscipit ligula in lacus curabitur at ipsum,Approved
+6617d22c96fb1df60617b01f,6617c305fc13ae2ab5ab8b25,226,Hostel Management,SQL,pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus in felis,Pending
+6617d22c96fb1df60617b020,6617c305fc13ae2ab5ab8b26,293,Revenue Prediction,Bootstrap,sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis,Approved
+6617d22d96fb1df60617b021,6617c305fc13ae2ab5ab8b27,301,Skill Matrix,DBT,in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus dolor vel est donec,Approved
+6617d22d96fb1df60617b022,6617c305fc13ae2ab5ab8b28,144,Timesheet,MongoDB,eu nibh quisque id justo sit amet sapien dignissim vestibulum,Pending
+6617d22d96fb1df60617b023,6617c305fc13ae2ab5ab8b29,298,Sales Activity,Deep Learning,suspendisse ornare consequat lectus in est risus auctor sed tristique in tempus sit amet sem,Pending
+6617d22d96fb1df60617b024,6617c305fc13ae2ab5ab8b2a,34,Sales Activity,Pearl,luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor,Approved
+6617d22d96fb1df60617b025,6617c305fc13ae2ab5ab8b2b,479,BAU Activity,Pearl,mi integer ac neque duis bibendum morbi non quam nec,Approved
+6617d22d96fb1df60617b026,6617c305fc13ae2ab5ab8b2c,152,Employee Learning,PowerBi,ornare consequat lectus in est risus auctor sed tristique in,Approved
+6617d22d96fb1df60617b027,6617c305fc13ae2ab5ab8b2d,434,Student Management,Deep Learning,in consequat ut nulla sed accumsan felis ut at dolor quis odio consequat varius,Approved
+6617d22d96fb1df60617b028,6617c305fc13ae2ab5ab8b2e,37,Revenue Prediction,SQL,eget massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies,Pending
+6617d22d96fb1df60617b029,6617c305fc13ae2ab5ab8b2f,129,Medical Analysis,Pearl,,Pending
+6617d22d96fb1df60617b02a,6617c305fc13ae2ab5ab8b30,408,Sales Activity,Pearl,at nulla suspendisse potenti cras in purus eu magna vulputate luctus cum sociis,Approved
+6617d22d96fb1df60617b02b,6617c305fc13ae2ab5ab8b31,363,Skill Matrix,Bootstrap,,Approved
+6617d22d96fb1df60617b02c,6617c305fc13ae2ab5ab8b32,383,Revenue Prediction,SQL,vitae nisi nam ultrices libero non mattis pulvinar nulla pede,Pending
+6617d22d96fb1df60617b02d,6617c305fc13ae2ab5ab8b33,115,Hostel Management,MongoDB,in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus dolor,Pending
+6617d22d96fb1df60617b02e,6617c305fc13ae2ab5ab8b34,289,Library Management,DBT,,Pending
+6617d22d96fb1df60617b02f,6617c305fc13ae2ab5ab8b35,429,Employee Training,PowerBi,ipsum praesent blandit lacinia erat vestibulum sed magna at nunc commodo,Approved
+6617d22d96fb1df60617b030,6617c305fc13ae2ab5ab8b36,349,Employee Training,React,,Approved
+6617d22d96fb1df60617b031,6617c305fc13ae2ab5ab8b37,138,Student Management,Bootstrap,,Pending
+6617d22d96fb1df60617b032,6617c305fc13ae2ab5ab8b38,93,BAU Activity,MongoDB,in imperdiet et commodo vulputate justo in blandit ultrices enim lorem,Pending
+6617d22d96fb1df60617b033,6617c305fc13ae2ab5ab8b39,478,BAU Activity,Java,,Approved
+6617d22d96fb1df60617b034,6617c305fc13ae2ab5ab8b3a,24,Hostel Management,Angular,,Approved
+6617d22d96fb1df60617b035,6617c305fc13ae2ab5ab8b3b,101,Medical Analysis,DBT,sapien sapien non mi integer ac neque duis bibendum morbi non quam nec dui,Approved
+6617d22d96fb1df60617b036,6617c305fc13ae2ab5ab8b3c,124,Student Management,PowerBi,,Approved
+6617d22d96fb1df60617b037,6617c305fc13ae2ab5ab8b3d,350,Sales Forecasting,Machine Learning,vivamus tortor duis mattis egestas metus aenean fermentum donec ut mauris eget massa tempor convallis,Pending
+6617d22d96fb1df60617b038,6617c305fc13ae2ab5ab8b3e,383,Sales Activity,SQL,,Approved
+6617d22d96fb1df60617b039,6617c305fc13ae2ab5ab8b3f,471,Sales Activity,SQL,eros viverra eget congue eget semper rutrum nulla nunc purus phasellus,Pending
+6617d22d96fb1df60617b03a,6617c305fc13ae2ab5ab8b40,434,Skill Matrix,Python,cubilia curae nulla dapibus dolor vel est donec odio justo sollicitudin,Pending
+6617d22d96fb1df60617b03b,6617c305fc13ae2ab5ab8b41,53,BAU Activity,PowerBi,,Approved
+6617d22d96fb1df60617b03c,6617c305fc13ae2ab5ab8b42,301,Medical Analysis,Deep Learning,cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor,Approved
+6617d22d96fb1df60617b03d,6617c305fc13ae2ab5ab8b43,138,Student Management,Deep Learning,fringilla rhoncus mauris enim leo rhoncus sed vestibulum sit amet cursus id turpis integer,Pending
+6617d22d96fb1df60617b03e,6617c305fc13ae2ab5ab8b44,138,Skill Matrix,Angular,,Pending
+6617d22d96fb1df60617b03f,6617c305fc13ae2ab5ab8b45,29,Skill Matrix,React,ipsum dolor sit amet consectetuer adipiscing elit proin risus praesent lectus vestibulum,Approved
+6617d22d96fb1df60617b040,6617c305fc13ae2ab5ab8b46,347,Sales Activity,Deep Learning,,Approved
+6617d22d96fb1df60617b041,6617c305fc13ae2ab5ab8b47,36,Library Management,Pearl,neque aenean auctor gravida sem praesent id massa id nisl venenatis,Pending
+6617d22d96fb1df60617b042,6617c305fc13ae2ab5ab8b48,113,BAU Activity,Java,,Pending
+6617d22d96fb1df60617b043,6617c305fc13ae2ab5ab8b49,469,Skill Matrix,Python,pellentesque volutpat dui maecenas tristique est et tempus semper est quam pharetra,Approved
+6617d22d96fb1df60617b044,6617c305fc13ae2ab5ab8b4a,449,BAU Activity,Deep Learning,,Approved
+6617d22e96fb1df60617b045,6617c305fc13ae2ab5ab8b4b,344,Timesheet,Machine Learning,et commodo vulputate justo in blandit ultrices enim lorem ipsum dolor sit,Approved
+6617d22e96fb1df60617b046,6617c305fc13ae2ab5ab8b4c,240,Medical Analysis,Deep Learning,,Approved
+6617d22e96fb1df60617b047,6617c305fc13ae2ab5ab8b4d,9,Hostel Management,Node,donec quis orci eget orci vehicula condimentum curabitur in libero ut massa volutpat,Approved
+6617d22e96fb1df60617b048,6617c305fc13ae2ab5ab8b4e,174,Timesheet,PowerBi,,Pending
+6617d22e96fb1df60617b049,6617c305fc13ae2ab5ab8b4f,24,Timesheet,Python,est lacinia nisi venenatis tristique fusce congue diam id ornare imperdiet,Approved
+6617d22e96fb1df60617b04a,6617c305fc13ae2ab5ab8b50,435,Timesheet,Pearl,in congue etiam justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam faucibus,Approved
+6617d22e96fb1df60617b04b,6617c305fc13ae2ab5ab8b51,140,Sales Forecasting,Bootstrap,in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat id,Approved
+6617d22e96fb1df60617b04c,6617c305fc13ae2ab5ab8b52,70,Sales Forecasting,Python,at dolor quis odio consequat varius integer ac leo pellentesque ultrices mattis,Approved
+6617d22e96fb1df60617b04d,6617c305fc13ae2ab5ab8b53,360,Student Management,MongoDB,donec ut dolor morbi vel lectus in quam fringilla rhoncus mauris enim leo rhoncus,Approved
+6617d22e96fb1df60617b04e,6617c305fc13ae2ab5ab8b54,78,Hostel Management,Machine Learning,nisl nunc rhoncus dui vel sem sed sagittis nam congue risus semper porta,Approved
+6617d22e96fb1df60617b04f,6617c305fc13ae2ab5ab8b55,34,Library Management,Node,habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum justo,Approved
+6617d22e96fb1df60617b050,6617c305fc13ae2ab5ab8b56,347,Student Management,Java,nulla ultrices aliquet maecenas leo odio condimentum id luctus nec molestie,Approved
+6617d22e96fb1df60617b051,6617c305fc13ae2ab5ab8b57,62,Student Management,Bootstrap,aenean fermentum donec ut mauris eget massa tempor convallis nulla,Approved
+6617d22e96fb1df60617b052,6617c305fc13ae2ab5ab8b58,95,Employee Learning,Deep Learning,massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies,Approved
+6617d22e96fb1df60617b053,6617c305fc13ae2ab5ab8b59,326,Sales Activity,DBT,,Approved
+6617d22e96fb1df60617b054,6617c305fc13ae2ab5ab8b5a,230,Library Management,SQL,id sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate,Approved
+6617d22e96fb1df60617b055,6617c305fc13ae2ab5ab8b5b,132,Timesheet,MongoDB,facilisi cras non velit nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus vel,Pending
+6617d22e96fb1df60617b056,6617c305fc13ae2ab5ab8b5c,58,Hostel Management,Machine Learning,quam sapien varius ut blandit non interdum in ante vestibulum ante ipsum,Pending
+6617d22e96fb1df60617b057,6617c305fc13ae2ab5ab8b5d,63,Employee Learning,Springboot,ante vivamus tortor duis mattis egestas metus aenean fermentum donec,Approved
+6617d22e96fb1df60617b058,6617c305fc13ae2ab5ab8b5e,85,Employee Training,Node,et magnis dis parturient montes nascetur ridiculus mus vivamus vestibulum sagittis sapien cum sociis,Approved
+6617d22e96fb1df60617b059,6617c305fc13ae2ab5ab8b5f,484,Skill Matrix,Bootstrap,,Approved
+6617d22e96fb1df60617b05a,6617c305fc13ae2ab5ab8b60,356,Medical Analysis,React,luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at nibh,Approved
+6617d22e96fb1df60617b05b,6617c305fc13ae2ab5ab8b61,142,Sales Forecasting,Java,massa id nisl venenatis lacinia aenean sit amet justo morbi ut odio cras mi,Approved
+6617d22e96fb1df60617b05c,6617c305fc13ae2ab5ab8b62,108,Skill Matrix,Java,nulla suscipit ligula in lacus curabitur at ipsum ac tellus semper,Approved
+6617d22e96fb1df60617b05d,6617c305fc13ae2ab5ab8b63,87,Medical Analysis,DBT,curabitur at ipsum ac tellus semper interdum mauris ullamcorper purus sit amet nulla quisque,Approved
+6617d22e96fb1df60617b05e,6617c305fc13ae2ab5ab8b64,334,Hostel Management,Deep Learning,libero nullam sit amet turpis elementum ligula vehicula consequat morbi a ipsum integer,Pending
+6617d22e96fb1df60617b05f,6617c305fc13ae2ab5ab8b65,122,Employee Learning,Pearl,gravida nisi at nibh in hac habitasse platea dictumst aliquam augue quam,Approved
+6617d22e96fb1df60617b060,6617c305fc13ae2ab5ab8b66,211,Medical Analysis,Machine Learning,,Pending
+6617d22e96fb1df60617b061,6617c305fc13ae2ab5ab8b67,57,Hostel Management,Deep Learning,vivamus vel nulla eget eros elementum pellentesque quisque porta volutpat erat quisque erat eros,Approved
+6617d22e96fb1df60617b062,6617c305fc13ae2ab5ab8b68,97,Revenue Prediction,Deep Learning,,Approved
+6617d22e96fb1df60617b063,6617c305fc13ae2ab5ab8b69,244,Sales Forecasting,Angular,vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat,Pending
+6617d22e96fb1df60617b064,6617c305fc13ae2ab5ab8b6a,312,BAU Activity,SQL,aliquam non mauris morbi non lectus aliquam sit amet diam in magna bibendum imperdiet nullam,Pending
+6617d22e96fb1df60617b065,6617c305fc13ae2ab5ab8b6b,355,Sales Forecasting,Angular,,Approved
+6617d22e96fb1df60617b066,6617c305fc13ae2ab5ab8b6c,459,Sales Activity,PowerBi,consequat morbi a ipsum integer a nibh in quis justo maecenas rhoncus aliquam lacus morbi,Approved
+6617d22f96fb1df60617b067,6617c305fc13ae2ab5ab8b6d,60,Sales Forecasting,PowerBi,erat nulla tempus vivamus in felis eu sapien cursus vestibulum proin,Approved
+6617d22f96fb1df60617b068,6617c305fc13ae2ab5ab8b6e,231,Employee Training,Bootstrap,vestibulum proin eu mi nulla ac enim in tempor turpis nec euismod scelerisque quam,Approved
+6617d22f96fb1df60617b069,6617c305fc13ae2ab5ab8b6f,67,Student Management,Springboot,consequat morbi a ipsum integer a nibh in quis justo maecenas,Pending
+6617d22f96fb1df60617b06a,6617c305fc13ae2ab5ab8b70,34,Hostel Management,Bootstrap,,Pending
+6617d22f96fb1df60617b06b,6617c305fc13ae2ab5ab8b71,319,Sales Forecasting,SQL,non interdum in ante vestibulum ante ipsum primis in faucibus orci luctus et ultrices,Approved
+6617d22f96fb1df60617b06c,6617c305fc13ae2ab5ab8b72,30,Skill Matrix,Springboot,,Approved
+6617d22f96fb1df60617b06d,6617c305fc13ae2ab5ab8b73,111,Revenue Prediction,React,ridiculus mus etiam vel augue vestibulum rutrum rutrum neque aenean auctor gravida sem praesent,Approved
+6617d22f96fb1df60617b06e,6617c305fc13ae2ab5ab8b74,168,Employee Learning,DBT,,Approved
+6617d22f96fb1df60617b06f,6617c305fc13ae2ab5ab8b75,363,BAU Activity,Node,eleifend quam a odio in hac habitasse platea dictumst maecenas ut massa quis augue luctus,Pending
+6617d22f96fb1df60617b070,6617c305fc13ae2ab5ab8b76,328,Library Management,Node,pede lobortis ligula sit amet eleifend pede libero quis orci nullam molestie,Pending
+6617d22f96fb1df60617b071,6617c305fc13ae2ab5ab8b77,286,BAU Activity,Angular,sed tristique in tempus sit amet sem fusce consequat nulla nisl nunc,Approved
+6617d22f96fb1df60617b072,6617c305fc13ae2ab5ab8b78,426,Library Management,Python,et ultrices posuere cubilia curae nulla dapibus dolor vel est donec odio justo sollicitudin,Approved
+6617d22f96fb1df60617b073,6617c305fc13ae2ab5ab8b79,39,Student Management,Python,,Approved
+6617d22f96fb1df60617b074,6617c305fc13ae2ab5ab8b7a,462,Hostel Management,Java,,Approved
+6617d22f96fb1df60617b075,6617c305fc13ae2ab5ab8b7b,482,Timesheet,SQL,,Pending
+6617d22f96fb1df60617b076,6617c305fc13ae2ab5ab8b7c,235,Employee Learning,Bootstrap,est risus auctor sed tristique in tempus sit amet sem,Approved
+6617d22f96fb1df60617b077,6617c305fc13ae2ab5ab8b7d,360,Student Management,Springboot,morbi odio odio elementum eu interdum eu tincidunt in leo maecenas pulvinar lobortis,Pending
+6617d22f96fb1df60617b078,6617c305fc13ae2ab5ab8b7e,464,Employee Training,Deep Learning,a suscipit nulla elit ac nulla sed vel enim sit amet nunc viverra dapibus nulla,Approved
+6617d22f96fb1df60617b079,6617c305fc13ae2ab5ab8b7f,104,Hostel Management,DBT,potenti cras in purus eu magna vulputate luctus cum sociis natoque penatibus,Approved
+6617d22f96fb1df60617b07a,6617c305fc13ae2ab5ab8b80,164,Library Management,Python,tortor quis turpis sed ante vivamus tortor duis mattis egestas metus,Approved
+6617d22f96fb1df60617b07b,6617c305fc13ae2ab5ab8b81,324,BAU Activity,MongoDB,tempus semper est quam pharetra magna ac consequat metus sapien ut nunc vestibulum ante,Approved
+6617d22f96fb1df60617b07c,6617c305fc13ae2ab5ab8b82,315,Employee Learning,Springboot,pede libero quis orci nullam molestie nibh in lectus pellentesque at nulla,Pending
+6617d22f96fb1df60617b07d,6617c305fc13ae2ab5ab8b83,421,Student Management,Python,dolor quis odio consequat varius integer ac leo pellentesque ultrices mattis,Pending
+6617d22f96fb1df60617b07e,6617c305fc13ae2ab5ab8b84,152,Student Management,PowerBi,non quam nec dui luctus rutrum nulla tellus in sagittis dui vel,Approved
+6617d22f96fb1df60617b07f,6617c305fc13ae2ab5ab8b85,108,Employee Training,PowerBi,nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at,Pending
+6617d22f96fb1df60617b080,6617c305fc13ae2ab5ab8b86,310,Library Management,Bootstrap,blandit mi in porttitor pede justo eu massa donec dapibus duis at velit eu,Approved
+6617d22f96fb1df60617b081,6617c305fc13ae2ab5ab8b87,23,Hostel Management,DBT,ut ultrices vel augue vestibulum ante ipsum primis in faucibus orci luctus et ultrices,Pending
+6617d22f96fb1df60617b082,6617c305fc13ae2ab5ab8b88,321,Employee Training,Python,justo morbi ut odio cras mi pede malesuada in imperdiet et commodo,Approved
+6617d22f96fb1df60617b083,6617c305fc13ae2ab5ab8b89,61,Employee Training,Angular,,Approved
+6617d22f96fb1df60617b084,6617c305fc13ae2ab5ab8b8a,170,Hostel Management,Angular,orci mauris lacinia sapien quis libero nullam sit amet turpis elementum ligula,Approved
+6617d22f96fb1df60617b085,6617c305fc13ae2ab5ab8b8b,326,Student Management,Bootstrap,,Pending
+6617d22f96fb1df60617b086,6617c305fc13ae2ab5ab8b8c,203,Library Management,Machine Learning,maecenas ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur,Approved
+6617d23096fb1df60617b087,6617c305fc13ae2ab5ab8b8d,187,Sales Forecasting,Java,ac neque duis bibendum morbi non quam nec dui luctus rutrum nulla,Approved
+6617d23096fb1df60617b088,6617c305fc13ae2ab5ab8b8e,43,Sales Forecasting,Java,,Approved
+6617d23096fb1df60617b089,6617c305fc13ae2ab5ab8b8f,88,Student Management,React,,Approved
+6617d23096fb1df60617b08a,6617c305fc13ae2ab5ab8b90,202,Student Management,Pearl,,Approved
+6617d23096fb1df60617b08b,6617c305fc13ae2ab5ab8b91,96,Skill Matrix,Bootstrap,praesent lectus vestibulum quam sapien varius ut blandit non interdum in ante,Approved
+6617d23096fb1df60617b08c,6617c305fc13ae2ab5ab8b92,286,Medical Analysis,Java,turpis nec euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh,Approved
+6617d23096fb1df60617b08d,6617c305fc13ae2ab5ab8b93,232,Employee Training,Node,congue diam id ornare imperdiet sapien urna pretium nisl ut volutpat sapien arcu sed,Pending
+6617d23096fb1df60617b08e,6617c305fc13ae2ab5ab8b94,136,Student Management,MongoDB,volutpat erat quisque erat eros viverra eget congue eget semper rutrum nulla nunc purus,Approved
+6617d23096fb1df60617b08f,6617c305fc13ae2ab5ab8b95,382,Timesheet,SQL,nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit,Approved
+6617d23096fb1df60617b090,6617c305fc13ae2ab5ab8b96,172,Employee Learning,Bootstrap,volutpat convallis morbi odio odio elementum eu interdum eu tincidunt in leo maecenas pulvinar,Approved
+6617d23096fb1df60617b091,6617c305fc13ae2ab5ab8b97,289,Revenue Prediction,Java,mattis egestas metus aenean fermentum donec ut mauris eget massa,Approved
+6617d23096fb1df60617b092,6617c305fc13ae2ab5ab8b98,102,Revenue Prediction,Springboot,sit amet erat nulla tempus vivamus in felis eu sapien,Pending
+6617d23096fb1df60617b093,6617c305fc13ae2ab5ab8b99,349,Sales Forecasting,React,,Approved
+6617d23096fb1df60617b094,6617c305fc13ae2ab5ab8b9a,380,Student Management,PowerBi,nunc rhoncus dui vel sem sed sagittis nam congue risus semper,Pending
+6617d23096fb1df60617b095,6617c305fc13ae2ab5ab8b9b,433,Library Management,React,vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia,Approved
+6617d23096fb1df60617b096,6617c305fc13ae2ab5ab8b9c,334,Sales Activity,Java,,Approved
+6617d23096fb1df60617b097,6617c305fc13ae2ab5ab8b9d,338,Timesheet,React,,Approved
+6617d23096fb1df60617b098,6617c305fc13ae2ab5ab8b9e,334,Employee Training,Pearl,curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae,Approved
+6617d23096fb1df60617b099,6617c305fc13ae2ab5ab8b9f,89,Library Management,Java,arcu libero rutrum ac lobortis vel dapibus at diam nam,Approved
+6617d23096fb1df60617b09a,6617c305fc13ae2ab5ab8ba0,145,Skill Matrix,DBT,venenatis turpis enim blandit mi in porttitor pede justo eu massa donec dapibus duis at,Pending
+6617d23096fb1df60617b09b,6617c305fc13ae2ab5ab8ba1,426,Medical Analysis,SQL,augue aliquam erat volutpat in congue etiam justo etiam pretium iaculis justo in hac habitasse,Approved
+6617d23096fb1df60617b09c,6617c305fc13ae2ab5ab8ba2,223,Sales Forecasting,DBT,vestibulum eget vulputate ut ultrices vel augue vestibulum ante ipsum,Approved
+6617d23096fb1df60617b09d,6617c305fc13ae2ab5ab8ba3,219,Sales Activity,Java,congue elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis,Approved
+6617d23096fb1df60617b09e,6617c305fc13ae2ab5ab8ba4,97,Revenue Prediction,Springboot,,Approved
+6617d23096fb1df60617b09f,6617c305fc13ae2ab5ab8ba5,125,Student Management,Springboot,phasellus id sapien in sapien iaculis congue vivamus metus arcu adipiscing,Pending
+6617d23096fb1df60617b0a0,6617c305fc13ae2ab5ab8ba6,349,Student Management,Node,,Approved
+6617d23096fb1df60617b0a1,6617c305fc13ae2ab5ab8ba7,306,Revenue Prediction,Node,,Pending
+6617d23096fb1df60617b0a2,6617c305fc13ae2ab5ab8ba8,326,Employee Training,Node,purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend quam a odio,Approved
+6617d23096fb1df60617b0a3,6617c305fc13ae2ab5ab8ba9,451,Sales Forecasting,MongoDB,a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce,Pending
+6617d23096fb1df60617b0a4,6617c305fc13ae2ab5ab8baa,101,Sales Activity,Java,,Pending
+6617d23096fb1df60617b0a5,6617c305fc13ae2ab5ab8bab,471,Library Management,SQL,ultrices posuere cubilia curae duis faucibus accumsan odio curabitur convallis duis consequat dui nec,Approved
+6617d23096fb1df60617b0a6,6617c305fc13ae2ab5ab8bac,224,Revenue Prediction,SQL,,Approved
+6617d23096fb1df60617b0a7,6617c305fc13ae2ab5ab8bad,107,Hostel Management,SQL,orci luctus et ultrices posuere cubilia curae nulla dapibus dolor,Approved
+6617d23096fb1df60617b0a8,6617c305fc13ae2ab5ab8bae,287,Hostel Management,Machine Learning,leo odio condimentum id luctus nec molestie sed justo pellentesque viverra pede ac diam cras,Pending
+6617d23096fb1df60617b0a9,6617c305fc13ae2ab5ab8baf,351,Sales Activity,React,cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus,Pending
+6617d23196fb1df60617b0aa,6617c305fc13ae2ab5ab8bb0,180,BAU Activity,Node,justo in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut,Pending
+6617d23196fb1df60617b0ab,6617c305fc13ae2ab5ab8bb1,311,Employee Training,Bootstrap,sit amet cursus id turpis integer aliquet massa id lobortis convallis tortor risus dapibus augue,Approved
+6617d23196fb1df60617b0ac,6617c305fc13ae2ab5ab8bb2,298,Revenue Prediction,Java,,Approved
+6617d23196fb1df60617b0ad,6617c305fc13ae2ab5ab8bb3,420,BAU Activity,Bootstrap,massa id nisl venenatis lacinia aenean sit amet justo morbi ut odio cras,Approved
+6617d23196fb1df60617b0ae,6617c305fc13ae2ab5ab8bb4,211,BAU Activity,Angular,vitae nisi nam ultrices libero non mattis pulvinar nulla pede ullamcorper,Approved
+6617d23196fb1df60617b0af,6617c305fc13ae2ab5ab8bb5,36,Student Management,Machine Learning,a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate,Approved
+6617d23196fb1df60617b0b0,6617c305fc13ae2ab5ab8bb6,224,Library Management,SQL,dapibus duis at velit eu est congue elementum in hac,Pending
+6617d23196fb1df60617b0b1,6617c305fc13ae2ab5ab8bb7,19,BAU Activity,Node,,Approved
+6617d23196fb1df60617b0b2,6617c305fc13ae2ab5ab8bb8,58,Medical Analysis,Deep Learning,felis eu sapien cursus vestibulum proin eu mi nulla ac enim in tempor turpis nec,Approved
+6617d23196fb1df60617b0b3,6617c305fc13ae2ab5ab8bb9,293,Hostel Management,Machine Learning,,Approved
+6617d23196fb1df60617b0b4,6617c305fc13ae2ab5ab8bba,125,Hostel Management,Node,,Pending
+6617d23196fb1df60617b0b5,6617c305fc13ae2ab5ab8bbb,483,Sales Activity,Bootstrap,curae nulla dapibus dolor vel est donec odio justo sollicitudin,Approved
+6617d23196fb1df60617b0b6,6617c305fc13ae2ab5ab8bbc,160,Employee Learning,Bootstrap,,Pending
+6617d23196fb1df60617b0b7,6617c305fc13ae2ab5ab8bbd,100,Employee Training,Node,ipsum integer a nibh in quis justo maecenas rhoncus aliquam,Approved
+6617d23196fb1df60617b0b8,6617c305fc13ae2ab5ab8bbe,297,Student Management,React,risus semper porta volutpat quam pede lobortis ligula sit amet,Approved
+6617d23196fb1df60617b0b9,6617c305fc13ae2ab5ab8bbf,343,Employee Learning,Angular,,Approved
+6617d23196fb1df60617b0ba,6617c305fc13ae2ab5ab8bc0,471,Hostel Management,Java,,Pending
+6617d23196fb1df60617b0bb,6617c305fc13ae2ab5ab8bc1,94,Employee Training,React,,Approved
+6617d23196fb1df60617b0bc,6617c305fc13ae2ab5ab8bc2,289,Library Management,Java,semper sapien a libero nam dui proin leo odio porttitor id consequat,Approved
+6617d23196fb1df60617b0bd,6617c305fc13ae2ab5ab8bc3,224,Skill Matrix,Deep Learning,,Approved
+6617d23196fb1df60617b0be,6617c305fc13ae2ab5ab8bc4,112,Skill Matrix,PowerBi,,Pending
+6617d23196fb1df60617b0bf,6617c305fc13ae2ab5ab8bc5,109,Medical Analysis,Bootstrap,odio consequat varius integer ac leo pellentesque ultrices mattis odio donec vitae nisi nam ultrices,Approved
+6617d23196fb1df60617b0c0,6617c305fc13ae2ab5ab8bc6,181,Student Management,PowerBi,vivamus in felis eu sapien cursus vestibulum proin eu mi nulla ac enim in,Approved
+6617d23196fb1df60617b0c1,6617c305fc13ae2ab5ab8bc7,152,Medical Analysis,React,mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus,Approved
+6617d23196fb1df60617b0c2,6617c305fc13ae2ab5ab8bc8,42,Employee Training,Python,risus dapibus augue vel accumsan tellus nisi eu orci mauris lacinia,Approved
+6617d23196fb1df60617b0c3,6617c305fc13ae2ab5ab8bc9,242,Timesheet,MongoDB,,Approved
+6617d23196fb1df60617b0c4,6617c305fc13ae2ab5ab8bca,136,Student Management,Node,,Approved
+6617d23196fb1df60617b0c5,6617c305fc13ae2ab5ab8bcb,93,BAU Activity,DBT,aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum,Approved
+6617d23196fb1df60617b0c6,6617c305fc13ae2ab5ab8bcc,221,Hostel Management,Python,,Approved
+6617d23196fb1df60617b0c7,6617c305fc13ae2ab5ab8bcd,46,Medical Analysis,Deep Learning,turpis donec posuere metus vitae ipsum aliquam non mauris morbi non lectus,Approved
+6617d23196fb1df60617b0c8,6617c305fc13ae2ab5ab8bce,169,Timesheet,Python,donec diam neque vestibulum eget vulputate ut ultrices vel augue,Pending
+6617d23196fb1df60617b0c9,6617c305fc13ae2ab5ab8bcf,218,Sales Forecasting,Springboot,vulputate justo in blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit,Pending
+6617d23196fb1df60617b0ca,6617c305fc13ae2ab5ab8bd0,234,Employee Training,Node,,Approved
+6617d23196fb1df60617b0cb,6617c305fc13ae2ab5ab8bd1,127,Timesheet,Deep Learning,duis bibendum felis sed interdum venenatis turpis enim blandit mi in porttitor pede,Approved
+6617d23196fb1df60617b0cc,6617c305fc13ae2ab5ab8bd2,169,Student Management,Deep Learning,diam cras pellentesque volutpat dui maecenas tristique est et tempus semper,Approved
+6617d23196fb1df60617b0cd,6617c305fc13ae2ab5ab8bd3,154,Timesheet,PowerBi,turpis enim blandit mi in porttitor pede justo eu massa donec dapibus duis at,Pending
+6617d23296fb1df60617b0ce,6617c305fc13ae2ab5ab8bd4,106,Skill Matrix,Node,interdum mauris non ligula pellentesque ultrices phasellus id sapien in sapien iaculis congue,Pending
+6617d23296fb1df60617b0cf,6617c305fc13ae2ab5ab8bd5,140,Sales Forecasting,Springboot,,Approved
+6617d23296fb1df60617b0d0,6617c305fc13ae2ab5ab8bd6,187,Hostel Management,Machine Learning,quis lectus suspendisse potenti in eleifend quam a odio in hac,Approved
+6617d23296fb1df60617b0d1,6617c305fc13ae2ab5ab8bd7,408,Employee Learning,Node,,Approved
+6617d23296fb1df60617b0d2,6617c305fc13ae2ab5ab8bd8,109,Skill Matrix,Java,sed magna at nunc commodo placerat praesent blandit nam nulla integer pede,Approved
+6617d23296fb1df60617b0d3,6617c305fc13ae2ab5ab8bd9,421,Hostel Management,React,ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus dolor,Pending
+6617d23296fb1df60617b0d4,6617c305fc13ae2ab5ab8bda,311,Employee Learning,PowerBi,nunc commodo placerat praesent blandit nam nulla integer pede justo,Pending
+6617d23296fb1df60617b0d5,6617c305fc13ae2ab5ab8bdb,37,Skill Matrix,Angular,praesent id massa id nisl venenatis lacinia aenean sit amet justo,Approved
+6617d23296fb1df60617b0d6,6617c305fc13ae2ab5ab8bdc,96,Sales Forecasting,Java,nullam molestie nibh in lectus pellentesque at nulla suspendisse potenti cras,Approved
+6617d23296fb1df60617b0d7,6617c305fc13ae2ab5ab8bdd,2,Medical Analysis,Bootstrap,,Approved
+6617d23296fb1df60617b0d8,6617c305fc13ae2ab5ab8bde,112,Employee Training,Pearl,odio odio elementum eu interdum eu tincidunt in leo maecenas pulvinar lobortis est phasellus sit,Approved
+6617d23296fb1df60617b0d9,6617c305fc13ae2ab5ab8bdf,295,BAU Activity,Springboot,dapibus duis at velit eu est congue elementum in hac,Approved
+6617d23296fb1df60617b0da,6617c305fc13ae2ab5ab8be0,320,Sales Activity,Angular,fusce lacus purus aliquet at feugiat non pretium quis lectus,Approved
+6617d23296fb1df60617b0db,6617c305fc13ae2ab5ab8be1,140,Medical Analysis,Angular,mattis egestas metus aenean fermentum donec ut mauris eget massa tempor convallis nulla,Approved
+6617d23296fb1df60617b0dc,6617c305fc13ae2ab5ab8be2,362,Student Management,Angular,,Approved
+6617d23296fb1df60617b0dd,6617c305fc13ae2ab5ab8be3,478,Employee Learning,Java,sapien cum sociis natoque penatibus et magnis dis parturient montes,Pending
+6617d23296fb1df60617b0de,6617c305fc13ae2ab5ab8be4,12,BAU Activity,Java,,Approved
+6617d23296fb1df60617b0df,6617c305fc13ae2ab5ab8be5,216,Hostel Management,Java,,Pending
+6617d23296fb1df60617b0e0,6617c305fc13ae2ab5ab8be6,457,Sales Forecasting,Springboot,congue etiam justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam,Approved
+6617d23296fb1df60617b0e1,6617c305fc13ae2ab5ab8be7,439,Employee Training,React,duis mattis egestas metus aenean fermentum donec ut mauris eget massa tempor convallis,Approved
+6617d23296fb1df60617b0e2,6617c305fc13ae2ab5ab8be8,435,Medical Analysis,Node,eu massa donec dapibus duis at velit eu est congue elementum in hac,Approved

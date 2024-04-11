@@ -1,0 +1,33 @@
+version: 2
+
+models:
+  - name: mart_sm
+    description: Table containing information about employees, their skills and their project.
+    columns:
+      - name: emp_id
+        description: Unique identifier for each employee.
+        tests:
+          - unique
+          - not_null
+      - name: emp_name
+        description: Name of the employee.
+      - name: role
+        description: Role of the user.
+      - name: designation
+        description: Role of the employee in the organization.
+      - name: skill_tech
+        description: Skill of the employee.
+      - name: proficiency
+        description: Proficiency level of the employee in the skill.
+      - name: certification_link
+        description: Certification for the skill.
+      - name: skill_status
+        description: Status of the skill.
+      - name: project_name
+        description: Name of the project done by the employee.
+      - name: project_tech
+        description: Technology used in the project.
+      - name: description
+        description: Description of the project.
+      - name: project_status
+        description: Status of the project.
