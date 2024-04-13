@@ -2,8 +2,8 @@
     width: 77.5%;
     /* height: 100%; */
     justify-content: center;
-    padding-top: 4rem;
-    padding-left: 20rem;
+    /* margin-top: 4rem; */
+    /* margin-left: 20rem; */
     align-items: center;
     background-color: #ffffff;
 
@@ -12,7 +12,7 @@
 .login {
     width: 550px;
     height: 300px;
-    background: #e1caee;
+    background: #e8efff;
     border: 5px solid #dddfe2;
     box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
     border-radius: 8px;
@@ -50,3 +50,165 @@
     text-align: center;
     align-items: center;
 }
+.navbar{
+    /* text-align: left; */
+    font-size: 33px;
+    background-color: #1877f2;
+    color: #fff;
+    font-weight: 400;
+    height: 65px;
+    padding-top: 10px;
+    /* padding-left: 25px; */
+}
+.usercard{
+    width: 250px;
+    height: 250px;
+    background: #e8efff;
+    border: 5px solid #dddfe2;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    border-radius: 8px;
+    padding: 1rem;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.useral{
+    /* display: flex; */
+    align-items: center;
+}
+
+.ButtonU button {
+    background-color: #e8efff; /* Blue background color */
+    color: rgb(0, 0, 0); /* White font color */
+    padding: 10px 20px; /* Padding for the buttons */
+    border:  3px solid #dddfe2; /* Remove button border */
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    /* border-radius: 8px; */
+    border-radius: 5px; /* Add rounded corners */
+    margin-right: 0px; /* Add margin between buttons */
+    cursor: pointer; /* Show pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for background color change */
+    flex: 1;
+    text-align: center;
+    width: 146px;
+    height: 45px;
+}
+
+.ButtonU button:hover {
+    background-color: #0056b3; /* Darker shade of blue on hover */
+}
+
+/* CSS for table */
+table {
+    width: 100%; /* Make table fill its container */
+    border-collapse: collapse; /* Collapse borders between cells */
+    margin: 20px 0; /* Add margin around the table */
+  }
+  
+  /* CSS for table header */
+  thead {
+    background-color: #007bff; /* Blue background color for header */
+    color: white; /* White font color for header text */
+  }
+  
+  /* CSS for table header cells */
+  th {
+    padding: 10px; /* Add padding to header cells */
+    text-align: left; /* Align text to the left within header cells */
+  }
+  
+  /* CSS for table body rows */
+  tbody tr:nth-child(even) {
+    background-color: #f2f2f2; /* Alternate row background color */
+  }
+  
+  /* CSS for table data cells */
+  td {
+    padding: 10px; /* Add padding to data cells */
+  }
+  
+  /* CSS for links within table */
+  a {
+    color: #007bff; /* Blue color for links */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  /* CSS for links within table on hover */
+  a:hover {
+    text-decoration: underline; /* Underline links on hover */
+  }
+
+  /* CSS for modal */
+  .modal {
+    position: fixed; /* Position modal relative to viewport */
+    z-index: 1; /* Ensure modal is above other elements */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scrolling if content exceeds viewport */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  }
+
+
+  /* CSS for modal content */
+  .modal-content {
+    background-color: #fefefe; /* White background */
+    margin: 10% auto; /* Center modal vertically and horizontally */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%; /* Set modal width */
+    max-width: 500px; /* Limit maximum modal width */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Add shadow */
+  }
+  
+  /* CSS for close button */
+  .close {
+    color: #aaa; /* Gray font color */
+    float: right; /* Align to the right */
+    font-size: 15px; /* Adjust font size */
+    font-weight: bold; /* Bold font weight */
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+  
+  .close:hover {
+    color: #000; /* Change font color on hover */
+  }
+  
+  /* CSS for inputs */
+  input[type="text"] {
+    width: 100%; /* Full width */
+    padding: 12px 20px; /* Add padding */
+    margin: 8px 0; /* Add margin */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    border: 1px solid #ccc; /* Add border */
+    border-radius: 4px; /* Rounded corners */
+  }
+  
+  /* CSS for submit button */
+
+  
+  button:hover {
+    background-color: #0056b3; /* Darker blue background color on hover */
+  }
+  
+  .admincard{
+    width: 350px;
+    height: 120px;
+    background: #e8efff;
+    border: 5px solid #dddfe2;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    border-radius: 8px;
+    padding: 1rem;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .logout{
+    margin-left: 1100px;
+    display: flex;
+    margin-top: -27px;
+}
+  

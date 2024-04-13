@@ -1,5 +1,6 @@
 {{
     config(
+        --- tags to refer and run the staging folder
         tags=['basic', 'staging']
     )
 }}
@@ -11,6 +12,7 @@ required_fields AS (
 
 
     SELECT 
+        --- Casting data types and following naming conventions
         CAST(ID AS INT) AS Emp_id,
         NAME AS Emp_name,
         EMAIL,

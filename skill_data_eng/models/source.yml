@@ -1,10 +1,16 @@
 version: 2
 
 sources:
-  - name: SMATRIX
-    database: SKILL_MATRIX
-    schema: RAW
+  #name of the source
+  - name: SMATRIX 
+    #snowflake database name
+    database: SKILL_MATRIX 
+    #name of the schema in snowflake
+    schema: RAW 
     tables:
+      #Table containing employee imformation
       - name: USER
+      #Table containing projects assigned to employees
       - name: PROJECT
+      #Table containing the skills and proficiencies
       - name: SKILL

@@ -1,6 +1,7 @@
 {{
     config(
-        tags=['basic', 'staging']
+        --- tags to refer and run the staging folder
+        tags=['basic', 'staging'] 
     )
 }}
 
@@ -11,6 +12,7 @@ required_fields AS (
 
 
     SELECT 
+        --- Casting data types and following naming conventions
         ID AS Project_id,
         CAST(USERID AS INT) AS Emp_id,
         PROJNAME AS Project_name,
